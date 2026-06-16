@@ -160,37 +160,45 @@ const fakeHiddenGems: Brand[] = [
     scam_risk_level: "safe"
   },
   {
-    id: "hg_4",
-    brand_name: "ShadyDeals Shop",
-    credibility_score: 31,
-    transparency_score: 12,
-    website: "https://shadydealsshop-fake.cc",
-    verified: false,
-    years_in_business: 1,
-    warranty_policy: "No genuine coverage. Customer contacts are routinely blocked.",
-    customer_service_score: 15,
-    transparency_rating: "F",
-    value_for_money: 18,
-    advantages: ["Extremely low upfront advertised price tags"],
-    disadvantages: ["Rampant bot-generated review networks", "Direct drop-shipping with defective rate claims near 48%", "Absent corporate identity and non-existing support emails"],
-    trusted_circle_activity: { friends: 0, purchased: 0, mentors: 0, experts: 0 },
-    trusted_circle_score: 10,
-    journey: [{ year: 2025, score: 45 }, { year: 2026, score: 31 }],
-    status: "Declining",
-    accountability: { expectations: 10, repurchase: 4, promises: 2 },
-    insights: "WARNING: Flagged as highly suspicious. Acts as a blind dropshipping shell with multiple complaints of cloned bank charges.",
+    id: "hg_dyson",
+    brand_name: "Dyson",
+    credibility_score: 92,
+    transparency_score: 90,
+    website: "https://dyson.in",
+    verified: true,
+    years_in_business: 33,
+    warranty_policy: "5 Year Direct Mechanical Parts and Engineering Warranty",
+    customer_service_score: 94,
+    transparency_rating: "A",
+    value_for_money: 82,
+    advantages: [
+      "Revolutionary styling engineering and air multipliers",
+      "Quick direct replacement and direct-to-home technician site audits",
+      "Excellent 2-year and 5-year solid customer warranty compliance lines"
+    ],
+    disadvantages: [
+      "Extremely premium pricing thresholds across all offerings",
+      "Occasional replacement filter backorders in selective regional areas"
+    ],
+    trusted_circle_activity: { friends: 14, purchased: 9, mentors: 6, experts: 11 },
+    trusted_circle_score: 91,
+    journey: [{ year: 2024, score: 89 }, { year: 2025, score: 91 }, { year: 2026, score: 92 }],
+    status: "Stable",
+    accountability: { expectations: 94, repurchase: 95, promises: 93 },
+    insights: "Dyson holds an outstanding trust premium in India for high-quality engineering, reliable warranties, and authentic customer satisfaction ratings.",
     weight_breakdown: {
-      verification: 12,
-      sat: 15,
-      transparency: 12,
-      consistency: 18,
-      community: 25,
-      circle: 10,
-      maturity: 10
+      verification: 96,
+      sat: 94,
+      transparency: 90,
+      consistency: 93,
+      community: 92,
+      circle: 91,
+      maturity: 95
     },
-    scam_risk: "HIGH SCAM DANGER",
-    scam_risk_description: "CRITICAL RISK DETECTED: Cloned corporate coordinates, automated feedback networks, and zero dispute resolution pathways.",
-    scam_risk_level: "danger"
+    associated_products: ["Hair Care", "Air Purifiers", "Vacuum Cleaners", "Electronics"],
+    scam_risk: "Very Low",
+    scam_risk_description: "Fully verified multinational hardware presence. Verified retail registers and real manufacturing compliance tracking on corporate layers.",
+    scam_risk_level: "safe"
   }
 ];
 
@@ -254,7 +262,7 @@ export default function App() {
   const [chatMessages, setChatMessages] = useState<Array<{ sender: 'user' | 'ai', text: string }>>([
     {
       sender: 'ai',
-      text: "Hello! I am **Vouch AI**, your product credibility and hardware transparency advisor. Ask me anything like:\n\n* *'I need a reliable coding laptop with a robust warranty.'*\n* *'Which smart TVs have the highest genuine buyer ratings?'*\n* *'Is Samsung's refrigerator warranty better than local competitors?'*\n\nI parse real, verified credibility ratings, review bot indicators, and manufacturer return rates to keep you safe!"
+      text: "Hello! I am **Vouch AI**, your DTC brand trust and credibility advisor. Ask me anything like:\n\n* *'Which skincare brands are highly trusted?'*\n* *'Is Dyson's customer service score better than other electronics brands?'*\n* *'Recommend some ethical home goods small businesses.'*\n\nI parse real, verified credibility ratings, review bot indicators, and customer circle score algorithms to keep you safe!"
     }
   ]);
   const [isChatLoading, setIsChatLoading] = useState(false);
@@ -274,7 +282,7 @@ export default function App() {
   const [adminEditId, setAdminEditId] = useState<string | null>(null);
 
   // Categories helper suited for clean brands
-  const categoriesList = ['All', 'Clean Skincare', 'Herbal Remedies', 'Wearables', 'Home Goods', 'Beverages', 'Sustainable Textiles', 'Electronics'];
+  const categoriesList = ['All', 'Clean Skincare', 'Hair Care', 'Beauty & Cosmetics', 'Electronics', 'Herbal Remedies', 'Wearables', 'Home Goods', 'Beverages', 'Sustainable Textiles'];
   const [selectedCategory, setSelectedCategory] = useState('All');
 
   // Load app data from local Express APIs
@@ -366,8 +374,11 @@ export default function App() {
   const getSearchedBrands = () => {
     const lowerSearch = searchQuery.toLowerCase().trim();
     
+    // Base category listing map
     const categoryQueryMap: { [key: string]: string } = {
       'Clean Skincare': 'skincare',
+      'Hair Care': 'hair care',
+      'Beauty & Cosmetics': 'beauty',
       'Herbal Remedies': 'remedies',
       'Wearables': 'wearables',
       'Home Goods': 'goods',
@@ -376,62 +387,137 @@ export default function App() {
       'Electronics': 'electronics'
     };
 
-    let matchedBrands = brands.filter(b => {
-      if (b.brand_name.toLowerCase().includes(lowerSearch)) {
-        return true;
+    if (!lowerSearch) {
+      // Filter only by category tab if search query is empty
+      if (selectedCategory === 'All') {
+        const sorted = [...brands];
+        sorted.sort((a, b) => b.credibility_score - a.credibility_score);
+        return sorted;
       }
-
-      if (selectedCategory !== 'All') {
-        const targetProductKeyword = categoryQueryMap[selectedCategory];
-        if (targetProductKeyword) {
-          const associates = b.associated_products?.map(p => p.toLowerCase()) || [];
-          if (targetProductKeyword === 'skincare') {
-            return associates.some(assoc => assoc.includes('skincare') || assoc.includes('hair cream') || assoc.includes('cream') || assoc.includes('clean skincare'));
-          }
-          return associates.some(assoc => assoc.includes(targetProductKeyword) || targetProductKeyword.includes(assoc));
-        }
-      }
-
-      if (lowerSearch) {
+      const matched = brands.filter(b => {
         const associates = b.associated_products?.map(p => p.toLowerCase()) || [];
-        if (associates.some(assoc => assoc.includes(lowerSearch) || lowerSearch.includes(assoc))) {
-          return true;
-        }
-        if (selectedCategory === 'All') {
-          for (const catName of Object.keys(categoryQueryMap)) {
-            if (catName.toLowerCase().includes(lowerSearch) || lowerSearch.includes(catName.toLowerCase())) {
-              const targetProductKeyword = categoryQueryMap[catName];
-              if (associates.some(assoc => assoc.includes(targetProductKeyword))) {
-                return true;
-              }
-            }
-          }
-        }
-      }
-
-      return false;
-    });
-
-    if (!lowerSearch && selectedCategory === 'All') {
-      matchedBrands = [...brands];
-    } else if (matchedBrands.length === 0) {
-      matchedBrands = brands.filter(b => {
-        const associates = b.associated_products?.map(p => p.toLowerCase()) || [];
-        return b.brand_name.toLowerCase().includes(lowerSearch) || 
-               associates.some(assoc => assoc.includes(lowerSearch));
+        const targetWord = categoryQueryMap[selectedCategory]?.toLowerCase() || selectedCategory.toLowerCase();
+        return associates.some(assoc => assoc.includes(targetWord) || targetWord.includes(assoc));
       });
-      if (matchedBrands.length === 0) {
-        matchedBrands = [...brands];
-      }
+      matched.sort((a, b) => b.credibility_score - a.credibility_score);
+      return matched;
     }
 
-    // Sort order: best to least (highest credibility score desc)
+    // Comprehensive case-insensitive partial-match search across brand fields
+    const matchedBrands = brands.filter(b => {
+      const name = b.brand_name.toLowerCase();
+      const associates = b.associated_products?.map(p => p.toLowerCase()) || [];
+      const insights = (b.insights || "").toLowerCase();
+      const risk = (b.scam_risk || "").toLowerCase();
+      const warranty = (b.warranty_policy || "").toLowerCase();
+
+      // Explicitly map search keywords & tags per brand for bulletproof relevance
+      const brandKeywords: string[] = [];
+      const brandTags: string[] = [];
+
+      if (name.includes("dyson")) {
+        brandKeywords.push("hair", "haircare", "beauty", "electronics", "dryer", "fans", "purifier", "styling", "hair care", "vacuum");
+        brandTags.push("Premium", "Engineering", "High-Tech", "Trusted");
+      } else if (name.includes("tresemme")) {
+        brandKeywords.push("hair", "haircare", "hair care", "beauty", "shampoo", "conditioner", "salon");
+        brandTags.push("Salon-grade", "Professional");
+      } else if (name.includes("dove")) {
+        brandKeywords.push("hair", "haircare", "hair care", "beauty", "skincare", "skin", "moisturizing", "soap", "shampoo", "conditioner");
+        brandTags.push("Moisturizing", "Gentle", "Derm-Recommended");
+      } else if (name.includes("pantene")) {
+        brandKeywords.push("hair", "haircare", "hair care", "beauty", "shampoo", "pro-v", "shine");
+        brandTags.push("Affordable", "Classic");
+      } else if (name.includes("l'oréal") || name.includes("loreal")) {
+        brandKeywords.push("hair", "haircare", "hair care", "beauty", "skincare", "skin", "makeup", "cosmetics", "salon");
+        brandTags.push("Research-backed", "Premium");
+      } else if (name.includes("moxie")) {
+        brandKeywords.push("hair", "haircare", "hair care", "beauty", "curly", "wavy", "coily", "clean", "shampoo");
+        brandTags.push("Sulfate-free", "Silicone-free", "Indian Hair");
+      } else if (name.includes("schwarzkopf")) {
+        brandKeywords.push("hair", "haircare", "hair care", "beauty", "dye", "pigments", "color", "salon", "conditioner", "shampoo");
+        brandTags.push("Professional", "German-Quality");
+      } else if (name.includes("mamaearth")) {
+        brandKeywords.push("hair", "haircare", "hair care", "skincare", "skin", "beauty", "onion", "shampoo", "natural", "organic", "baby");
+        brandTags.push("Toxin-free", "Cruelty-free", "Eco-friendly");
+      } else if (name.includes("wow skin") || name.includes("wowskin")) {
+        brandKeywords.push("hair", "haircare", "hair care", "skincare", "skin", "beauty", "apple cider", "shampoo", "natural", "organic");
+        brandTags.push("Bioactive", "Natural");
+      } else if (name.includes("minimalist")) {
+        brandKeywords.push("skincare", "skin", "beauty", "serum", "clean", "peeling", "actives", "niacinamide", "salicylic");
+        brandTags.push("Clinically-Proven", "Fragrance-free", "Transparent");
+      } else if (name.includes("derma co") || name.includes("dermaco")) {
+        brandKeywords.push("skincare", "skin", "beauty", "acne", "dermatologist", "potency", "salicylic", "serum");
+        brandTags.push("Dermatologist-Designed", "Active-rich");
+      } else if (name.includes("cetaphil")) {
+        brandKeywords.push("skincare", "skin", "beauty", "cleanser", "moisturizer", "sensitive", "eczema", "dry skin");
+        brandTags.push("Clinical-standard", "Hypoallergenic", "Soap-free");
+      } else if (name.includes("cerave")) {
+        brandKeywords.push("skincare", "skin", "beauty", "ceramide", "moisturizer", "barrier", "dry skin", "cleanser");
+        brandTags.push("Barrier-healing", "MVE-Tech", "Derm-Developed");
+      } else if (name.includes("forest essentials") || name.includes("forestessentials")) {
+        brandKeywords.push("skincare", "skin", "beauty", "ayurvedic", "natural", "luxury", "oil", "facial", "massage", "remedies");
+        brandTags.push("Luxury Ayurvedic", "Artisanal", "Pure-botanical");
+      } else if (name.includes("maybelline")) {
+        brandKeywords.push("beauty", "cosmetics", "makeup", "lipstick", "eyeliner", "mascara", "foundation", "face");
+        brandTags.push("Pigmented", "Longwear", "Affordable");
+      } else if (name.includes("lakme") || name.includes("lakmé")) {
+        brandKeywords.push("beauty", "cosmetics", "makeup", "lipstick", "kajal", "foundation", "salon", "eyeliner");
+        brandTags.push("Indian Pioneer", "Weatherproof");
+      } else if (name.includes("nykaa")) {
+        brandKeywords.push("beauty", "cosmetics", "makeup", "lipstick", "eyeliner", "nail polish", "compact");
+        brandTags.push("Authentic", "Trendy", "Affordable");
+      } else if (name.includes("sugar")) {
+        brandKeywords.push("beauty", "cosmetics", "makeup", "lipstick", "matte", "transfer-proof", "liner");
+        brandTags.push("Transfer-proof", "Vibrant");
+      } else if (name.includes("apple")) {
+        brandKeywords.push("electronics", "tech", "phone", "iphone", "laptop", "macbook", "watch", "smartwatch", "gadgets", "audio", "airpods");
+        brandTags.push("Apex-Ecosystem", "Impeccable-Support", "High-Tech");
+      } else if (name.includes("sony")) {
+        brandKeywords.push("electronics", "tech", "audio", "tv", "headphones", "anc", "camera", "playstation", "gaming", "bravia");
+        brandTags.push("Audio-king", "Japanese-Pedigree");
+      } else if (name.includes("samsung")) {
+        brandKeywords.push("electronics", "tech", "phone", "tv", "appliances", "refrigerator", "smartwatch", "smartthings");
+        brandTags.push("Display-pioneer", "Robust-network");
+      } else if (name.includes("glownest")) {
+        brandKeywords.push("beauty", "skincare", "skin", "cream", "hair", "haircare", "organic", "serum", "hydrating", "rose", "moisturizer", "clean beauty");
+        brandTags.push("Clean", "Organic", "Vegan", "Derm-Approved");
+      } else if (name.includes("herbaura")) {
+        brandKeywords.push("herbal", "remedies", "himalayan", "natural", "tea", "organic", "supplements", "beauty", "skincare", "wellness", "botanical");
+        brandTags.push("Fair-trade", "Sustainable", "Eco-friendly", "Carbon-neutral");
+      } else if (name.includes("aurawell")) {
+        brandKeywords.push("wellness", "fitness", "trackers", "watch", "smartwatch", "electronics", "biological", "heart", "health", "wearables");
+        brandTags.push("Tech", "Health", "Active", "Verified");
+      } else if (name.includes("econest")) {
+        brandKeywords.push("home", "goods", "living", "eco", "recycled", "sustainable", "sustainable living", "bamboo", "accessories", "lifestyle");
+        brandTags.push("Zero-waste", "Circular", "Recycled");
+      } else if (name.includes("pureleaf")) {
+        brandKeywords.push("tea", "beverages", "organic", "herbal", "infusions", "natural", "drink", "matcha");
+        brandTags.push("Purity", "QR Verified");
+      } else if (name.includes("bloomberry")) {
+        brandKeywords.push("kids", "apparel", "textiles", "children", "baby", "clothes", "cotton", "toddler");
+        brandTags.push("Certified Organic", "Hypoallergenic");
+      } else if (name.includes("techbloom")) {
+        brandKeywords.push("electronics", "accessories", "modular", "bluetooth", "charger", "gadgets", "audio", "tech");
+        brandTags.push("Modular", "Eco-smart");
+      }
+
+      const matchesName = name.includes(lowerSearch);
+      const matchesAssociates = associates.some(assoc => assoc.includes(lowerSearch) || lowerSearch.includes(assoc));
+      const matchesInsights = insights.includes(lowerSearch);
+      const matchesRisk = risk.includes(lowerSearch);
+      const matchesWarranty = warranty.includes(lowerSearch);
+      const matchesKeywords = brandKeywords.some(kw => kw.includes(lowerSearch) || lowerSearch.includes(kw));
+      const matchesTags = brandTags.some(tag => tag.toLowerCase().includes(lowerSearch));
+
+      return matchesName || matchesAssociates || matchesInsights || matchesRisk || matchesWarranty || matchesKeywords || matchesTags;
+    });
+
+    // Sort order: best to least
     matchedBrands.sort((a, b) => b.credibility_score - a.credibility_score);
 
+    // Prioritization check if relevant
     const isHairCream = lowerSearch.includes('hair cream') || lowerSearch.includes('cream') || selectedCategory === 'Clean Skincare';
-
     if (isHairCream) {
-      // Prioritize GlowNest and other organic health brands
       const glowNestIndex = matchedBrands.findIndex(b => b.brand_name.toLowerCase() === 'glownest');
       if (glowNestIndex > -1) {
         const [glowBrand] = matchedBrands.splice(glowNestIndex, 1);
@@ -1283,8 +1369,9 @@ export default function App() {
                   <span>Sorted by: <strong className="text-white">Credibility Rating (Best to Least)</strong></span>
                 </div>
 
-                <div className="grid grid-cols-1 gap-8">
-                  {getSearchedBrands().map(b => {
+                {getSearchedBrands().length > 0 ? (
+                  <div className="grid grid-cols-1 gap-8">
+                    {getSearchedBrands().map(b => {
                     const currentTrust = b.trust_score || b.credibility_score || 85;
                     const isVotedExpectations = votedAspects[`${b.id}_expectations`];
                     const isVotedRepurchase = votedAspects[`${b.id}_repurchase`];
@@ -1317,6 +1404,13 @@ export default function App() {
                             <div className="bg-[#030610] p-3 rounded-xl border border-slate-850/70 text-xs">
                               <span className="text-slate-450 uppercase text-[8.5px] font-bold tracking-wider block">Warranty Standard:</span>
                               <p className="text-slate-300 font-semibold mt-1 leading-normal leading-4">{b.warranty_policy || "1 Year General Replacement Coverage"}</p>
+                            </div>
+
+                            <div className="bg-indigo-950/25 p-3 rounded-xl border border-indigo-900/30 text-xs shadow-inner">
+                              <span className="text-[#a5b4fc] uppercase text-[8px] font-black tracking-wider block">★ AI Trust Summary:</span>
+                              <p className="text-slate-300 mt-1 leading-relaxed text-[11px] italic">
+                                "{b.insights || "Consistent positive registry audits and balanced satisfaction margins denote extremely high structural integrity."}"
+                              </p>
                             </div>
                           </div>
 
@@ -1368,21 +1462,34 @@ export default function App() {
 
                           {/* Trusted Circle integration Section */}
                           <div className="bg-[#030611] p-3 rounded-xl border border-slate-850/80 flex items-center justify-between gap-4">
-                            <div className="flex items-center gap-3">
-                              <div className="bg-indigo-950/50 p-2.5 rounded-lg text-indigo-400 border border-indigo-900-30 shrink-0">
+                            <div className="flex items-center gap-3 w-full">
+                              <div className="bg-indigo-950/50 p-2.5 rounded-lg text-indigo-400 border border-indigo-900/30 shrink-0">
                                 <User className="h-4.5 w-4.5" />
                               </div>
-                              <div>
+                              <div className="w-full">
                                 <div className="text-xs text-slate-200 font-bold">Trusted Circle activity</div>
-                                <div className="text-[10px] text-slate-400 flex gap-2 flex-wrap mt-0.5">
-                                  <span>Friends: <strong className="text-slate-300">{b.trusted_circle_activity?.friends || 4}</strong></span>
-                                  <span>Purchased: <strong className="text-slate-300">{b.trusted_circle_activity?.purchased || 10}</strong></span>
-                                  <span>Mentors: <strong className="text-slate-300">{b.trusted_circle_activity?.mentors || 2}</strong></span>
+                                <div className="text-[10px] text-slate-400 mt-1.5 grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-1.5 font-mono w-full">
+                                  <span className="flex justify-between border-b border-slate-900/40 pb-0.5 sm:pb-0 sm:border-0">
+                                    <span className="text-slate-455">Friends Recommend:</span>
+                                    <strong className="text-emerald-400 font-bold">{b.trusted_circle_activity?.friends || 4}</strong>
+                                  </span>
+                                  <span className="flex justify-between border-b border-slate-900/40 pb-0.5 sm:pb-0 sm:border-0">
+                                    <span className="text-slate-455">Family Purchased:</span>
+                                    <strong className="text-amber-400 font-bold">{b.trusted_circle_activity?.purchased || 10}</strong>
+                                  </span>
+                                  <span className="flex justify-between border-b border-slate-900/40 pb-0.5 sm:pb-0 sm:border-0">
+                                    <span className="text-slate-455">Mentors Trust:</span>
+                                    <strong className="text-indigo-300 font-bold">{b.trusted_circle_activity?.mentors || 2}</strong>
+                                  </span>
+                                  <span className="flex justify-between pb-0.5 sm:pb-0">
+                                    <span className="text-slate-455">Experts Recommend:</span>
+                                    <strong className="text-teal-400 font-bold">{b.trusted_circle_activity?.experts || 5}</strong>
+                                  </span>
                                 </div>
                               </div>
                             </div>
-                            <div className="text-right">
-                              <span className="text-[9px] bg-indigo-500/10 text-indigo-300 font-black tracking-wider px-2 py-0.5 rounded border border-indigo-500/20 uppercase">
+                            <div className="text-right shrink-0">
+                              <span className="text-[9px] bg-indigo-500/10 text-indigo-300 font-black tracking-wider px-2 py-1 rounded border border-indigo-500/20 uppercase block">
                                 Circle Score: {b.trusted_circle_score || 88}
                               </span>
                             </div>
@@ -1586,8 +1693,15 @@ export default function App() {
                     );
                   })}
                 </div>
-              </div>
-            )}
+              ) : (
+                <div className="bg-[#070c18] border border-slate-850 p-12 text-center rounded-2xl shadow-xl border-dashed border-indigo-900/20">
+                  <Clipboard className="h-10 w-10 text-slate-600 mx-auto animate-bounce" />
+                  <p className="text-slate-200 text-sm font-bold mt-4">No matching brands found.</p>
+                  <p className="text-xs text-slate-500 mt-2">Try resetting the filters or type active categories like "electronics", "beauty", "hair" or "skincare" to find verified small businesses and hidden gems.</p>
+                </div>
+              )}
+            </div>
+          )}
 
             {/* MODE 2: PRODUCT CATALOGING (Individual models with pricing redirects) - disabled */}
             {directoryMode === 'never_render_appliances' && (
@@ -2805,19 +2919,19 @@ export default function App() {
                             <span className="text-lg font-black font-mono text-amber-400 leading-none">
                               {selectedProductDetails.trusted_circle_activity?.purchased || 2}
                             </span>
-                            <span className="text-[7px] text-slate-400 font-bold uppercase tracking-wider mt-1 block leading-tight">PEERS BOUGHT</span>
+                            <span className="text-[7px] text-slate-400 font-bold uppercase tracking-wider mt-1 block leading-tight">FAMILY PUR.</span>
                           </div>
                           <div className="bg-slate-950/60 p-2 rounded-xl border border-slate-850/80 flex flex-col justify-center min-h-[50px]">
                             <span className="text-lg font-black font-mono text-indigo-400 leading-none">
                               {selectedProductDetails.trusted_circle_activity?.mentors || 3}
                             </span>
-                            <span className="text-[7px] text-slate-400 font-bold uppercase tracking-wider mt-1 block leading-tight">MENTORS APP.</span>
+                            <span className="text-[7px] text-slate-400 font-bold uppercase tracking-wider mt-1 block leading-tight">MENTORS TRUST</span>
                           </div>
                           <div className="bg-slate-950/60 p-2 rounded-xl border border-slate-850/80 flex flex-col justify-center min-h-[50px]">
                             <span className="text-lg font-black font-mono text-teal-400 leading-none">
                               {selectedProductDetails.trusted_circle_activity?.experts || 3}
                             </span>
-                            <span className="text-[7px] text-slate-400 font-bold uppercase tracking-wider mt-1 block leading-tight">EXPERTS END.</span>
+                            <span className="text-[7px] text-slate-400 font-bold uppercase tracking-wider mt-1 block leading-tight">EXPERTS REC.</span>
                           </div>
                         </div>
 
@@ -3014,6 +3128,50 @@ export default function App() {
                   <p className="text-xs text-slate-700 mt-1 leading-normal">
                     {selectedBrandOverview.scam_risk_description || "Consistent market registry footprint, confirmed customer service channels, and positive physical inventory audits mean this brand presents extremely low risk of financial loss, falsified reviews, or warranty dodging."}
                   </p>
+                </div>
+              </div>
+
+              {/* AI Trust Summary Segment */}
+              <div className="p-4 rounded-xl bg-gradient-to-r from-indigo-950/40 via-indigo-900/10 to-slate-950 border border-indigo-500/25 text-[#e0e7ff] shadow-inner space-y-1">
+                <h4 className="text-[10px] text-indigo-300 uppercase tracking-widest font-extrabold flex items-center gap-1.5 font-display">
+                  <span>★ AI Trust Summary Insight</span>
+                </h4>
+                <p className="text-xs text-indigo-100 font-medium leading-relaxed italic">
+                  "{selectedBrandOverview.insights || "Consistent market registry footprint, confirmed customer service channels, and positive physical inventory audits mean this brand presents extremely low risk of financial loss, falsified reviews, or warranty dodging."}"
+                </p>
+              </div>
+
+              {/* Detailed Trusted Circle Stats in Brand Profile Modal */}
+              <div className="bg-[#030611] p-4 rounded-xl border border-slate-850/80 space-y-2.5">
+                <h4 className="text-[10px] text-indigo-300 uppercase tracking-widest font-extrabold flex items-center gap-1.5 font-display">
+                  <User className="h-3.5 w-3.5 text-indigo-400" />
+                  <span>Trusted Circle Verification Activity</span>
+                </h4>
+                <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 text-center">
+                  <div className="bg-slate-950/40 p-2.5 rounded-xl border border-slate-850/85">
+                    <span className="text-lg font-black font-mono text-emerald-400 leading-none">
+                      {selectedBrandOverview.trusted_circle_activity?.friends || 4}
+                    </span>
+                    <span className="text-[8px] text-slate-400 font-bold uppercase tracking-wider mt-1 block">Friends Recommend</span>
+                  </div>
+                  <div className="bg-slate-950/40 p-2.5 rounded-xl border border-slate-850/85">
+                    <span className="text-lg font-black font-mono text-amber-400 leading-none">
+                      {selectedBrandOverview.trusted_circle_activity?.purchased || 10}
+                    </span>
+                    <span className="text-[8px] text-slate-400 font-bold uppercase tracking-wider mt-1 block">Family Purchased</span>
+                  </div>
+                  <div className="bg-slate-950/40 p-2.5 rounded-xl border border-slate-850/85">
+                    <span className="text-lg font-black font-mono text-indigo-350 leading-none">
+                      {selectedBrandOverview.trusted_circle_activity?.mentors || 2}
+                    </span>
+                    <span className="text-[8px] text-slate-400 font-bold uppercase tracking-wider mt-1 block">Mentors Trust</span>
+                  </div>
+                  <div className="bg-slate-950/40 p-2.5 rounded-xl border border-slate-850/85">
+                    <span className="text-lg font-black font-mono text-teal-400 leading-none">
+                      {selectedBrandOverview.trusted_circle_activity?.experts || 5}
+                    </span>
+                    <span className="text-[8px] text-slate-400 font-bold uppercase tracking-wider mt-1 block">Experts Recommend</span>
+                  </div>
                 </div>
               </div>
 

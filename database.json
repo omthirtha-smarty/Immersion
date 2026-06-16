@@ -394,59 +394,1207 @@
       "scam_risk_level": "safe"
     },
     {
-      "id": "b_shadyshop",
-      "brand_name": "ShadyDeals Shop",
-      "credibility_score": 31,
-      "transparency_score": 12,
-      "website": "https://shadydealsshop-fake.cc",
-      "verified": false,
-      "years_in_business": 1,
-      "warranty_policy": "No genuine coverage. Customer contacts are routinely blocked.",
-      "customer_service_score": 15,
-      "transparency_rating": "F",
-      "value_for_money": 18,
+      "id": "b_dyson",
+      "brand_name": "Dyson",
+      "credibility_score": 92,
+      "transparency_score": 90,
+      "website": "https://dyson.in",
+      "verified": true,
+      "years_in_business": 33,
+      "warranty_policy": "5 Year Direct Mechanical Parts and Engineering Warranty",
+      "customer_service_score": 94,
+      "transparency_rating": "A",
+      "value_for_money": 82,
       "advantages": [
-        "Extremely low upfront advertised price tags"
+        "Revolutionary styling engineering and air multipliers",
+        "Quick direct replacement and direct-to-home technician site audits",
+        "Excellent 2-year and 5-year solid customer warranty compliance lines"
       ],
       "disadvantages": [
-        "Rampant bot-generated review networks",
-        "Direct drop-shipping with defective rate claims near 48%",
-        "Absent corporate identity and non-existing support emails"
+        "Extremely premium pricing thresholds across all offerings",
+        "Occasional replacement filter backorders in selective regional areas"
       ],
       "trusted_circle_activity": {
-        "friends": 0,
-        "purchased": 0,
-        "mentors": 0,
-        "experts": 0
+        "friends": 14,
+        "purchased": 9,
+        "mentors": 6,
+        "experts": 11
       },
-      "trusted_circle_score": 10,
+      "trusted_circle_score": 91,
       "journey": [
-        { "year": 2025, "score": 45 },
-        { "year": 2026, "score": 31 }
+        { "year": 2024, "score": 89 },
+        { "year": 2025, "score": 91 },
+        { "year": 2026, "score": 92 }
       ],
-      "status": "Declining",
+      "status": "Stable",
       "accountability": {
-        "expectations": 10,
-        "repurchase": 4,
-        "promises": 2
+        "expectations": 94,
+        "repurchase": 95,
+        "promises": 93
       },
-      "insights": "WARNING: Flagged as highly suspicious. Acts as a blind dropshipping shell with multiple complaints of cloned bank charges.",
+      "insights": "Dyson holds an outstanding trust premium in India for high-quality engineering, reliable warranties, and authentic customer satisfaction ratings.",
       "weight_breakdown": {
-        "verification": 12,
-        "sat": 15,
-        "transparency": 12,
-        "consistency": 18,
-        "community": 25,
-        "maturity": 10,
-        "circle": 10
+        "verification": 96,
+        "sat": 94,
+        "transparency": 90,
+        "consistency": 93,
+        "community": 92,
+        "circle": 91,
+        "maturity": 95
       },
       "associated_products": [
-        "Low Integrity Shell",
-        "Dropshipper"
+        "Hair Care", 
+        "Air Purifiers", 
+        "Vacuum Cleaners", 
+        "Electronics"
       ],
-      "scam_risk": "HIGH SCAM DANGER",
-      "scam_risk_description": "CRITICAL RISK DETECTED: Cloned corporate coordinates, automated feedback networks, and zero dispute resolution pathways.",
-      "scam_risk_level": "danger"
+      "scam_risk": "Very Low",
+      "scam_risk_description": "Fully verified multinational hardware presence. Verified retail registers and real manufacturing compliance tracking on corporate layers.",
+      "scam_risk_level": "safe"
+    },
+    {
+      "id": "b_tresemme",
+      "brand_name": "Tresemmé",
+      "credibility_score": 85,
+      "transparency_score": 83,
+      "website": "https://tresemme.com",
+      "verified": true,
+      "years_in_business": 76,
+      "warranty_policy": "Standard Satisfaction Refund Policy",
+      "customer_service_score": 86,
+      "transparency_rating": "B",
+      "value_for_money": 88,
+      "advantages": [
+        "Professional salon-grade styling results at home",
+        "Extremely reliable formulation consistency for dry hair protection",
+        "Widespread availability and consistent pricing parameters"
+      ],
+      "disadvantages": [
+        "Contains chemical surfactants in standard offerings",
+        "Lacks custom-tailored small batch herbal extracts"
+      ],
+      "trusted_circle_activity": {
+        "friends": 15,
+        "purchased": 28,
+        "mentors": 5,
+        "experts": 10
+      },
+      "trusted_circle_score": 86,
+      "journey": [
+        { "year": 2024, "score": 83 },
+        { "year": 2025, "score": 84 },
+        { "year": 2026, "score": 85 }
+      ],
+      "status": "Stable",
+      "accountability": {
+        "expectations": 86,
+        "repurchase": 88,
+        "promises": 84
+      },
+      "insights": "Tresemmé is a highly consistent haircare giant trusted for professional-level results and extremely stable manufacturing tracking.",
+      "weight_breakdown": {
+        "verification": 90,
+        "sat": 86,
+        "transparency": 83,
+        "consistency": 85,
+        "community": 84,
+        "circle": 86,
+        "maturity": 95
+      },
+      "associated_products": [
+        "Hair Care",
+        "Beauty"
+      ],
+      "scam_risk": "Very Low",
+      "scam_risk_description": "Well-established multinational brand under Unilever with verified supply hubs.",
+      "scam_risk_level": "safe"
+    },
+    {
+      "id": "b_dove",
+      "brand_name": "Dove",
+      "credibility_score": 89,
+      "transparency_score": 88,
+      "website": "https://dove.com",
+      "verified": true,
+      "years_in_business": 69,
+      "warranty_policy": "Unconditional Quality Claim Refund",
+      "customer_service_score": 90,
+      "transparency_rating": "A",
+      "value_for_money": 92,
+      "advantages": [
+        "Signature 1/4 moisturizing cream formulation across all bars and shampoos",
+        "Highly gentle, hypoallergenic, and dermatologist-recommended",
+        "Strong public commitments to sustainable packaging and real beauty standards"
+      ],
+      "disadvantages": [
+        "Slightly heavier formulation may not suit ultra-oily scalp profiles",
+        "Requires deep secondary rinsing under soft water conditions"
+      ],
+      "trusted_circle_activity": {
+        "friends": 22,
+        "purchased": 41,
+        "mentors": 9,
+        "experts": 18
+      },
+      "trusted_circle_score": 91,
+      "journey": [
+        { "year": 2024, "score": 87 },
+        { "year": 2025, "score": 88 },
+        { "year": 2026, "score": 89 }
+      ],
+      "status": "Stable",
+      "accountability": {
+        "expectations": 91,
+        "repurchase": 93,
+        "promises": 90
+      },
+      "insights": "Dove continues to score remarkably high in customer satisfaction, particularly for gentle structural hair care and skin barrier compatibility.",
+      "weight_breakdown": {
+        "verification": 93,
+        "sat": 90,
+        "transparency": 88,
+        "consistency": 89,
+        "community": 91,
+        "circle": 91,
+        "maturity": 95
+      },
+      "associated_products": [
+        "Hair Care",
+        "Beauty",
+        "Skincare"
+      ],
+      "scam_risk": "Very Low",
+      "scam_risk_description": "Multinational retail verification completely stable with established global retail checks.",
+      "scam_risk_level": "safe"
+    },
+    {
+      "id": "b_pantene",
+      "brand_name": "Pantene",
+      "credibility_score": 84,
+      "transparency_score": 82,
+      "website": "https://pantene.com",
+      "verified": true,
+      "years_in_business": 79,
+      "warranty_policy": "Standard Satisfaction Safe Guarantee",
+      "customer_service_score": 85,
+      "transparency_rating": "B",
+      "value_for_money": 89,
+      "advantages": [
+        "Pro-Vitamin formula effectively targets structural keratin damage",
+        "Extremely affordable price-to-volume ratio in standard packages",
+        "Excellent lather performance even in hard water regions"
+      ],
+      "disadvantages": [
+        "Contains chemical foaming agents like sodium laureth sulfate",
+        "May trigger mild build-up if used daily without clarifying intervals"
+      ],
+      "trusted_circle_activity": {
+        "friends": 13,
+        "purchased": 31,
+        "mentors": 4,
+        "experts": 8
+      },
+      "trusted_circle_score": 84,
+      "journey": [
+        { "year": 2024, "score": 82 },
+        { "year": 2025, "score": 83 },
+        { "year": 2026, "score": 84 }
+      ],
+      "status": "Stable",
+      "accountability": {
+        "expectations": 85,
+        "repurchase": 87,
+        "promises": 83
+      },
+      "insights": "Pantene is a globally recognized haircare leader specializing in outer hair shine restoration and high-volume distribution.",
+      "weight_breakdown": {
+        "verification": 88,
+        "sat": 85,
+        "transparency": 82,
+        "consistency": 84,
+        "community": 83,
+        "circle": 84,
+        "maturity": 95
+      },
+      "associated_products": [
+        "Hair Care",
+        "Beauty"
+      ],
+      "scam_risk": "Very Low",
+      "scam_risk_description": "Established Proctor & Gamble supply network with bulletproof verification profiles.",
+      "scam_risk_level": "safe"
+    },
+    {
+      "id": "b_loreal",
+      "brand_name": "L'Oréal Paris",
+      "credibility_score": 90,
+      "transparency_score": 89,
+      "website": "https://lorealparis.co.in",
+      "verified": true,
+      "years_in_business": 115,
+      "warranty_policy": "Product Quality Redress and Replacement",
+      "customer_service_score": 91,
+      "transparency_rating": "A",
+      "value_for_money": 85,
+      "advantages": [
+        "World-class advanced skin and hair science laboratories",
+        "Outstanding performance in repair formulations (such as hyaluronic acid complexes)",
+        "Elegant cosmetic skin-feel with high-grade safety benchmarks"
+      ],
+      "disadvantages": [
+        "Premium pricing structures for professional salon ranges",
+        "High packaging density might not appeal to zero-waste purists"
+      ],
+      "trusted_circle_activity": {
+        "friends": 18,
+        "purchased": 35,
+        "mentors": 7,
+        "experts": 14
+      },
+      "trusted_circle_score": 89,
+      "journey": [
+        { "year": 2024, "score": 88 },
+        { "year": 2025, "score": 89 },
+        { "year": 2026, "score": 90 }
+      ],
+      "status": "Stable",
+      "accountability": {
+        "expectations": 91,
+        "repurchase": 92,
+        "promises": 89
+      },
+      "insights": "L'Oréal Paris is an industry benchmark for research backed beauty and hair care solutions, showing premium scores.",
+      "weight_breakdown": {
+        "verification": 94,
+        "sat": 91,
+        "transparency": 89,
+        "consistency": 90,
+        "community": 90,
+        "circle": 89,
+        "maturity": 98
+      },
+      "associated_products": [
+        "Hair Care",
+        "Beauty",
+        "Skincare"
+      ],
+      "scam_risk": "Very Low",
+      "scam_risk_description": "Longstanding multinational cosmetics standard. Solid security compliance.",
+      "scam_risk_level": "safe"
+    },
+    {
+      "id": "b_moxie",
+      "brand_name": "Moxie Beauty",
+      "credibility_score": 91,
+      "transparency_score": 92,
+      "website": "https://moxiebeauty.co",
+      "verified": true,
+      "years_in_business": 3,
+      "warranty_policy": "30 Day Pure Care Satisfaction Guarantee",
+      "customer_service_score": 93,
+      "transparency_rating": "A-",
+      "value_for_money": 90,
+      "advantages": [
+        "Formulated specifically for Indian wavy, curly, and coily hair textures",
+        "Strict clean chemistry (completely silicone-free, sulfate-free, and paraben-free)",
+        "Stellar customized routine mapping via active WhatsApp support lines"
+      ],
+      "disadvantages": [
+        "Niche focus means limited effectiveness for ultra-fine poker straight hair",
+        "Primarily online-first delivery models restricting immediate retail access"
+      ],
+      "trusted_circle_activity": {
+        "friends": 12,
+        "purchased": 20,
+        "mentors": 5,
+        "experts": 9
+      },
+      "trusted_circle_score": 90,
+      "journey": [
+        { "year": 2024, "score": 86 },
+        { "year": 2025, "score": 89 },
+        { "year": 2026, "score": 91 }
+      ],
+      "status": "Improving",
+      "accountability": {
+        "expectations": 92,
+        "repurchase": 94,
+        "promises": 91
+      },
+      "insights": "Moxie Beauty excels in textured hair care solutions with non-toxic, clean organic compounds formulated exactly for tropical weather moisture retention.",
+      "weight_breakdown": {
+        "verification": 95,
+        "sat": 93,
+        "transparency": 92,
+        "consistency": 89,
+        "community": 91,
+        "circle": 90,
+        "maturity": 70
+      },
+      "associated_products": [
+        "Hair Care",
+        "Beauty",
+        "Skincare"
+      ],
+      "scam_risk": "Very Low",
+      "scam_risk_description": "Legitimate modern startup. Confirmed shipping logs and fully responsive consumer channels.",
+      "scam_risk_level": "safe"
+    },
+    {
+      "id": "b_schwarzkopf",
+      "brand_name": "Schwarzkopf",
+      "credibility_score": 88,
+      "transparency_score": 86,
+      "website": "https://schwarzkopf.com",
+      "verified": true,
+      "years_in_business": 128,
+      "warranty_policy": "Professional Salon Assurance Guarantee",
+      "customer_service_score": 87,
+      "transparency_rating": "B+",
+      "value_for_money": 84,
+      "advantages": [
+        "German engineering pedigree specializing in high-performance hair pigments",
+        "Incredible damage control via professional fiber-bond rebuilding technologies",
+        "High user satisfaction amongst salon professionals globally"
+      ],
+      "disadvantages": [
+        "Requires exact application steps to prevent hair cuticle drying",
+        "Premium professional segment lines are relatively hard to source retail"
+      ],
+      "trusted_circle_activity": {
+        "friends": 9,
+        "purchased": 19,
+        "mentors": 4,
+        "experts": 12
+      },
+      "trusted_circle_score": 87,
+      "journey": [
+        { "year": 2024, "score": 86 },
+        { "year": 2025, "score": 87 },
+        { "year": 2026, "score": 88 }
+      ],
+      "status": "Stable",
+      "accountability": {
+        "expectations": 89,
+        "repurchase": 87,
+        "promises": 86
+      },
+      "insights": "Schwarzkopf remains an international professional powerhouse for color safety and deep keratin recovery standardizations.",
+      "weight_breakdown": {
+        "verification": 91,
+        "sat": 87,
+        "transparency": 86,
+        "consistency": 88,
+        "community": 88,
+        "circle": 87,
+        "maturity": 98
+      },
+      "associated_products": [
+        "Hair Care",
+        "Beauty"
+      ],
+      "scam_risk": "Very Low",
+      "scam_risk_description": "Division of Henkel AG. Solid commercial tracking with stellar enterprise safety metrics.",
+      "scam_risk_level": "safe"
+    },
+    {
+      "id": "b_mamaearth",
+      "brand_name": "Mamaearth",
+      "credibility_score": 82,
+      "transparency_score": 80,
+      "website": "https://mamaearth.in",
+      "verified": true,
+      "years_in_business": 8,
+      "warranty_policy": "No-Toxin Quality Refund Commitment",
+      "customer_service_score": 83,
+      "transparency_rating": "B-",
+      "value_for_money": 86,
+      "advantages": [
+        "Cruelty-free, vegan certified, and dedicated plastic positivity models",
+        "Infused with highly popular local traditional assets like onion and tea tree",
+        "Pocket-friendly prices across multiple household sizes"
+      ],
+      "disadvantages": [
+        "Uses mild chemical emulsifiers that might occasionally cause skin flare-ups",
+        "Highly varied feedback patterns concerning custom hair thinning claims"
+      ],
+      "trusted_circle_activity": {
+        "friends": 16,
+        "purchased": 39,
+        "mentors": 3,
+        "experts": 6
+      },
+      "trusted_circle_score": 81,
+      "journey": [
+        { "year": 2024, "score": 80 },
+        { "year": 2025, "score": 81 },
+        { "year": 2026, "score": 82 }
+      ],
+      "status": "Stable",
+      "accountability": {
+        "expectations": 82,
+        "repurchase": 84,
+        "promises": 81
+      },
+      "insights": "Mamaearth is a prominent Indian direct-to-consumer brand combining toxin-free certification with widespread local availability.",
+      "weight_breakdown": {
+        "verification": 85,
+        "sat": 83,
+        "transparency": 80,
+        "consistency": 82,
+        "community": 81,
+        "circle": 81,
+        "maturity": 85
+      },
+      "associated_products": [
+        "Hair Care",
+        "Skincare",
+        "Beauty"
+      ],
+      "scam_risk": "Very Low",
+      "scam_risk_description": "NSE-listed corporate parent (Honasa Consumer Ltd) with certified retail and audit paths.",
+      "scam_risk_level": "safe"
+    },
+    {
+      "id": "b_wowskin",
+      "brand_name": "WOW Skin Science",
+      "credibility_score": 81,
+      "transparency_score": 79,
+      "website": "https://buywow.in",
+      "verified": true,
+      "years_in_business": 12,
+      "warranty_policy": "Direct Package Replacement Guarantee",
+      "customer_service_score": 82,
+      "transparency_rating": "C+",
+      "value_for_money": 90,
+      "advantages": [
+        "Strictly 100% gluten-free and completely free of raw mineral oils",
+        "Pioneered organic apple cider vinegar shampoo ranges across India",
+        "Extremely responsive on standard social media grievance coordinates"
+      ],
+      "disadvantages": [
+        "Formulations may feel overly drying for fine curly hair strands",
+        "Occasional product color variations due to natural fruit extract bases"
+      ],
+      "trusted_circle_activity": {
+        "friends": 11,
+        "purchased": 24,
+        "mentors": 2,
+        "experts": 5
+      },
+      "trusted_circle_score": 80,
+      "journey": [
+        { "year": 2024, "score": 79 },
+        { "year": 2025, "score": 80 },
+        { "year": 2026, "score": 81 }
+      ],
+      "status": "Stable",
+      "accountability": {
+        "expectations": 80,
+        "repurchase": 83,
+        "promises": 79
+      },
+      "insights": "WOW Skin Science leverages natural bioactive compounds to deliver results-oriented haircare with highly affordable margins.",
+      "weight_breakdown": {
+        "verification": 83,
+        "sat": 82,
+        "transparency": 79,
+        "consistency": 81,
+        "community": 80,
+        "circle": 80,
+        "maturity": 88
+      },
+      "associated_products": [
+        "Hair Care",
+        "Skincare",
+        "Beauty"
+      ],
+      "scam_risk": "Very Low",
+      "scam_risk_description": "Highly active corporate footprint backed by major private equity. Verified logistics trackers.",
+      "scam_risk_level": "safe"
+    },
+    {
+      "id": "b_minimalist",
+      "brand_name": "Minimalist",
+      "credibility_score": 91,
+      "transparency_score": 93,
+      "website": "https://beminimalist.co",
+      "verified": true,
+      "years_in_business": 4,
+      "warranty_policy": "Full Ingredient Transparency and Return Redress",
+      "customer_service_score": 92,
+      "transparency_rating": "A",
+      "value_for_money": 94,
+      "advantages": [
+        "Revolutionary clinically back-up ingredient declarations on labels",
+        "Stellar pricing metrics for active serums (Salicylic Acid, Niacinamide)",
+        "Completely fragrance-free and non-comedogenic certified formulations"
+      ],
+      "disadvantages": [
+        "Active peeling solutions require rigorous sunscreen application discipline",
+        "Packaging is intentionally medicinal and clinically utilitarian"
+      ],
+      "trusted_circle_activity": {
+        "friends": 19,
+        "purchased": 38,
+        "mentors": 8,
+        "experts": 15
+      },
+      "trusted_circle_score": 93,
+      "journey": [
+        { "year": 2024, "score": 88 },
+        { "year": 2025, "score": 90 },
+        { "year": 2026, "score": 91 }
+      ],
+      "status": "Stable",
+      "accountability": {
+        "expectations": 93,
+        "repurchase": 95,
+        "promises": 92
+      },
+      "insights": "Minimalist changed the Indian skincare market by providing high-efficacy clinical products with strict batch transparency logs.",
+      "weight_breakdown": {
+        "verification": 96,
+        "sat": 92,
+        "transparency": 93,
+        "consistency": 91,
+        "community": 92,
+        "circle": 93,
+        "maturity": 85
+      },
+      "associated_products": [
+        "Skincare",
+        "Beauty",
+        "Hair Care"
+      ],
+      "scam_risk": "Very Low",
+      "scam_risk_description": "Fully audited manufacturer backed by Sequoia Capital. Solid consumer satisfaction logs.",
+      "scam_risk_level": "safe"
+    },
+    {
+      "id": "b_dermaco",
+      "brand_name": "The Derma Co",
+      "credibility_score": 86,
+      "transparency_score": 84,
+      "website": "https://thedermaco.com",
+      "verified": true,
+      "years_in_business": 4,
+      "warranty_policy": "Designated Dermatologist Support Guarantee",
+      "customer_service_score": 87,
+      "transparency_rating": "B",
+      "value_for_money": 88,
+      "advantages": [
+        "Formulated to specifically resolve acne, pigmentation, and open pores",
+        "Offers direct virtual dermatologist consultations for custom skincare",
+        "Excellent product texture with fast skin absorption coefficients"
+      ],
+      "disadvantages": [
+        "May trigger purging in first 2 weeks due to active retinoid elements",
+        "May not suit heavily sensitive skin profiles without patch checks first"
+      ],
+      "trusted_circle_activity": {
+        "friends": 10,
+        "purchased": 21,
+        "mentors": 3,
+        "experts": 7
+      },
+      "trusted_circle_score": 85,
+      "journey": [
+        { "year": 2024, "score": 83 },
+        { "year": 2025, "score": 85 },
+        { "year": 2026, "score": 86 }
+      ],
+      "status": "Stable",
+      "accountability": {
+        "expectations": 87,
+        "repurchase": 89,
+        "promises": 85
+      },
+      "insights": "The Derma Co focuses on active ingredient-based skincare designed by actual dermatologists to target stubborn epidermal challenges.",
+      "weight_breakdown": {
+        "verification": 89,
+        "sat": 87,
+        "transparency": 84,
+        "consistency": 86,
+        "community": 85,
+        "circle": 85,
+        "maturity": 85
+      },
+      "associated_products": [
+        "Skincare",
+        "Beauty"
+      ],
+      "scam_risk": "Very Low",
+      "scam_risk_description": "Established subsidiary of Honasa Consumer Group with validated corporate oversight.",
+      "scam_risk_level": "safe"
+    },
+    {
+      "id": "b_cetaphil",
+      "brand_name": "Cetaphil",
+      "credibility_score": 93,
+      "transparency_score": 91,
+      "website": "https://cetaphil.co.in",
+      "verified": true,
+      "years_in_business": 77,
+      "warranty_policy": "Medical Quality Assurance Indemnity",
+      "customer_service_score": 94,
+      "transparency_rating": "A+",
+      "value_for_money": 91,
+      "advantages": [
+        "Global gold standard cleanser for highly sensitive, compromised skin",
+        "Stellar soap-free, non-greasy, and pH-balanced physiological formula",
+        "Exceptional medical trust profile supported by global dermatological studies"
+      ],
+      "disadvantages": [
+        "Does not focus on active peeling or direct skin lightening trends",
+        "Highly understated basic packaging without active scent compounds"
+      ],
+      "trusted_circle_activity": {
+        "friends": 21,
+        "purchased": 44,
+        "mentors": 11,
+        "experts": 24
+      },
+      "trusted_circle_score": 95,
+      "journey": [
+        { "year": 2024, "score": 91 },
+        { "year": 2025, "score": 92 },
+        { "year": 2026, "score": 93 }
+      ],
+      "status": "Stable",
+      "accountability": {
+        "expectations": 94,
+        "repurchase": 96,
+        "promises": 93
+      },
+      "insights": "Cetaphil scores stellar marks in skin recovery trials. It represents a bulletproof clinical standard for dry or compromised skin barriers.",
+      "weight_breakdown": {
+        "verification": 96,
+        "sat": 94,
+        "transparency": 91,
+        "consistency": 93,
+        "community": 94,
+        "circle": 95,
+        "maturity": 95
+      },
+      "associated_products": [
+        "Skincare",
+        "Beauty"
+      ],
+      "scam_risk": "Very Low",
+      "scam_risk_description": "Property of Galderma laboratories. Fully compliant scientific pharmaceutical tracks.",
+      "scam_risk_level": "safe"
+    },
+    {
+      "id": "b_cerave",
+      "brand_name": "CeraVe",
+      "credibility_score": 94,
+      "transparency_score": 92,
+      "website": "https://cerave.co.in",
+      "verified": true,
+      "years_in_business": 19,
+      "warranty_policy": "Ceramide Enrichment Level Assurance",
+      "customer_service_score": 95,
+      "transparency_rating": "A+",
+      "value_for_money": 90,
+      "advantages": [
+        "Formulated with 3 essential, bio-identical ceramides (1, 3, and 6-II)",
+        "Pioneering MVE sustained-released formulation technology for 24-hour hydration",
+        "Dermatologist developed with unparalleled skin barrier recovery validation"
+      ],
+      "disadvantages": [
+        "Primary focus is healing hydration rather than rapid anti-aging",
+        "Slightly premium clinical price tag compared to legacy local soaps"
+      ],
+      "trusted_circle_activity": {
+        "friends": 25,
+        "purchased": 49,
+        "mentors": 12,
+        "experts": 22
+      },
+      "trusted_circle_score": 94,
+      "journey": [
+        { "year": 2024, "score": 92 },
+        { "year": 2025, "score": 93 },
+        { "year": 2026, "score": 94 }
+      ],
+      "status": "Stable",
+      "accountability": {
+        "expectations": 95,
+        "repurchase": 96,
+        "promises": 94
+      },
+      "insights": "CeraVe's signature triple-ceramide complex has established it globally as an apex restoration cream for chronic cellular dryness.",
+      "weight_breakdown": {
+        "verification": 97,
+        "sat": 95,
+        "transparency": 92,
+        "consistency": 94,
+        "community": 95,
+        "circle": 94,
+        "maturity": 91
+      },
+      "associated_products": [
+        "Skincare",
+        "Beauty"
+      ],
+      "scam_risk": "Very Low",
+      "scam_risk_description": "Division of L'Oréal Active Cosmetics. High regulatory safety standards on global manufacturing routes.",
+      "scam_risk_level": "safe"
+    },
+    {
+      "id": "b_forestessentials",
+      "brand_name": "Forest Essentials",
+      "credibility_score": 95,
+      "transparency_score": 94,
+      "website": "https://forestessentialsindia.com",
+      "verified": true,
+      "years_in_business": 26,
+      "warranty_policy": "Premium Ayurvedic Origin Guarantee",
+      "customer_service_score": 96,
+      "transparency_rating": "A+",
+      "value_for_money": 80,
+      "advantages": [
+        "Authentic luxury Ayurvedic preparations using traditional spring water bases",
+        "Sourced using 100% natural, cold-pressed raw seed oils and forest crops",
+        "Exemplary artisan presentation, elite organic scent blends, and royal heritage aesthetics"
+      ],
+      "disadvantages": [
+        "Very high premium luxury pricing threshold across all oils and creams",
+        "Requires immediate cool storage to secure botanical enzyme lifespans"
+      ],
+      "trusted_circle_activity": {
+        "friends": 14,
+        "purchased": 22,
+        "mentors": 7,
+        "experts": 19
+      },
+      "trusted_circle_score": 93,
+      "journey": [
+        { "year": 2024, "score": 93 },
+        { "year": 2025, "score": 94 },
+        { "year": 2026, "score": 95 }
+      ],
+      "status": "Stable",
+      "accountability": {
+        "expectations": 96,
+        "repurchase": 94,
+        "promises": 95
+      },
+      "insights": "Forest Essentials holds India's highest traditional beauty rating, sourcing pristine Himalayan compounds with impeccable supply audits.",
+      "weight_breakdown": {
+        "verification": 98,
+        "sat": 96,
+        "transparency": 94,
+        "consistency": 95,
+        "community": 94,
+        "circle": 93,
+        "maturity": 93
+      },
+      "associated_products": [
+        "Skincare",
+        "Beauty",
+        "Herbal Remedies"
+      ],
+      "scam_risk": "Very Low",
+      "scam_risk_description": "Luxury enterprise with Estée Lauder backing. Robust retail compliance checks.",
+      "scam_risk_level": "safe"
+    },
+    {
+      "id": "b_maybelline",
+      "brand_name": "Maybelline",
+      "credibility_score": 88,
+      "transparency_score": 87,
+      "website": "https://maybelline.co.in",
+      "verified": true,
+      "years_in_business": 111,
+      "warranty_policy": "Cosmetic Batch Authenticity Redress",
+      "customer_service_score": 89,
+      "transparency_rating": "B+",
+      "value_for_money": 91,
+      "advantages": [
+        "Pioneering high-pigment longwear cosmetic lines (such as Super Stay ranges)",
+        "Incredibly high value-for-money metrics with widespread color option sets",
+        "Robust, safe testing profiles conforming to strict EU cosmetic mandates"
+      ],
+      "disadvantages": [
+        "Standard ranges are not strictly zero-chemical or fully mineral-organic",
+        "May trigger slight skin dryness if used without a hydrating base coat"
+      ],
+      "trusted_circle_activity": {
+        "friends": 16,
+        "purchased": 38,
+        "mentors": 4,
+        "experts": 11
+      },
+      "trusted_circle_score": 88,
+      "journey": [
+        { "year": 2024, "score": 86 },
+        { "year": 2025, "score": 87 },
+        { "year": 2026, "score": 88 }
+      ],
+      "status": "Stable",
+      "accountability": {
+        "expectations": 89,
+        "repurchase": 91,
+        "promises": 87
+      },
+      "insights": "Maybelline provides exceptional, affordable color beauty options backed by robust safety evaluations.",
+      "weight_breakdown": {
+        "verification": 92,
+        "sat": 89,
+        "transparency": 87,
+        "consistency": 88,
+        "community": 88,
+        "circle": 88,
+        "maturity": 98
+      },
+      "associated_products": [
+        "Beauty",
+        "Skincare"
+      ],
+      "scam_risk": "Very Low",
+      "scam_risk_description": "International cosmetics brand owned by L'Oréal. Excellent anti-counterfeit measures.",
+      "scam_risk_level": "safe"
+    },
+    {
+      "id": "b_lakme",
+      "brand_name": "Lakmé",
+      "credibility_score": 89,
+      "transparency_score": 88,
+      "website": "https://lakmeindia.com",
+      "verified": true,
+      "years_in_business": 71,
+      "warranty_policy": "Premium Indian Beauty Quality Promise",
+      "customer_service_score": 90,
+      "transparency_rating": "A",
+      "value_for_money": 89,
+      "advantages": [
+        "India's first home-grown beauty platform matching regional sub-climates",
+        "Outstanding formulation resilience during hot humid monsoon weather patterns",
+        "Widespread physical salon networks ensuring easy real-world assistance"
+      ],
+      "disadvantages": [
+        "Certain matte shades can feel slightly heavy on dry skin patches",
+        "Standard packing designs are somewhat outdated compared to newer micro-brands"
+      ],
+      "trusted_circle_activity": {
+        "friends": 20,
+        "purchased": 43,
+        "mentors": 6,
+        "experts": 13
+      },
+      "trusted_circle_score": 89,
+      "journey": [
+        { "year": 2024, "score": 87 },
+        { "year": 2025, "score": 88 },
+        { "year": 2026, "score": 89 }
+      ],
+      "status": "Stable",
+      "accountability": {
+        "expectations": 90,
+        "repurchase": 91,
+        "promises": 88
+      },
+      "insights": "Lakmé represents India's cultural beauty pioneer, offering reliable coverage and skin compatibility profiles.",
+      "weight_breakdown": {
+        "verification": 93,
+        "sat": 90,
+        "transparency": 88,
+        "consistency": 89,
+        "community": 89,
+        "circle": 89,
+        "maturity": 95
+      },
+      "associated_products": [
+        "Beauty",
+        "Skincare"
+      ],
+      "scam_risk": "Very Low",
+      "scam_risk_description": "Protected under Hindustan Unilever Ltd enterprise tracking. Fully authentic stock lanes.",
+      "scam_risk_level": "safe"
+    },
+    {
+      "id": "b_nykaa",
+      "brand_name": "Nykaa Cosmetics",
+      "credibility_score": 86,
+      "transparency_score": 85,
+      "website": "https://nykaa.com",
+      "verified": true,
+      "years_in_business": 12,
+      "warranty_policy": "Verified Authentic Stock Guarantee",
+      "customer_service_score": 87,
+      "transparency_rating": "B",
+      "value_for_money": 88,
+      "advantages": [
+        "Incredibly high shade versatility matching diverse undertones",
+        "Very rich pigmentation outputs across highly affordable nail and lip lines",
+        "Excellent packaging material durability preserving product integrity"
+      ],
+      "disadvantages": [
+        "Tends to launch fast trend cycles with minor fragrance additions",
+        "Physical customer support returns can sometimes experience backlog queues"
+      ],
+      "trusted_circle_activity": {
+        "friends": 14,
+        "purchased": 29,
+        "mentors": 4,
+        "experts": 8
+      },
+      "trusted_circle_score": 85,
+      "journey": [
+        { "year": 2024, "score": 84 },
+        { "year": 2025, "score": 85 },
+        { "year": 2026, "score": 86 }
+      ],
+      "status": "Stable",
+      "accountability": {
+        "expectations": 86,
+        "repurchase": 88,
+        "promises": 84
+      },
+      "insights": "Nykaa Cosmetics combines trendy colors with strong anti-counterfeit security systems, ensuring genuine retail items.",
+      "weight_breakdown": {
+        "verification": 89,
+        "sat": 87,
+        "transparency": 85,
+        "consistency": 86,
+        "community": 85,
+        "circle": 85,
+        "maturity": 88
+      },
+      "associated_products": [
+        "Beauty",
+        "Skincare"
+      ],
+      "scam_risk": "Very Low",
+      "scam_risk_description": "Prominent listed enterprise (FSN E-Commerce Ventures) on local exchanges with strict audits.",
+      "scam_risk_level": "safe"
+    },
+    {
+      "id": "b_sugar",
+      "brand_name": "Sugar Cosmetics",
+      "credibility_score": 87,
+      "transparency_score": 86,
+      "website": "https://sugarcosmetics.com",
+      "verified": true,
+      "years_in_business": 11,
+      "warranty_policy": "Premium Longwear Quality Assurance",
+      "customer_service_score": 88,
+      "transparency_rating": "B+",
+      "value_for_money": 89,
+      "advantages": [
+        "Signature zero-transfer intensely matte lipsticks and liners",
+        "Perfect formulation durability under high humidity tropical climates",
+        "Ultra-modern, highly creative artistic packaging layouts"
+      ],
+      "disadvantages": [
+        "Matte ranges require thorough oil-cleansing step to remove safely",
+        "Can feel slightly drying on lips without a generous balm underlay"
+      ],
+      "trusted_circle_activity": {
+        "friends": 12,
+        "purchased": 26,
+        "mentors": 5,
+        "experts": 9
+      },
+      "trusted_circle_score": 86,
+      "journey": [
+        { "year": 2024, "score": 85 },
+        { "year": 2025, "score": 86 },
+        { "year": 2026, "score": 87 }
+      ],
+      "status": "Stable",
+      "accountability": {
+        "expectations": 88,
+        "repurchase": 90,
+        "promises": 86
+      },
+      "insights": "Sugar Cosmetics occupies a prominent cosmetic rank in India for high-definition makeup formulations built for everyday wear.",
+      "weight_breakdown": {
+        "verification": 91,
+        "sat": 88,
+        "transparency": 86,
+        "consistency": 87,
+        "community": 87,
+        "circle": 86,
+        "maturity": 88
+      },
+      "associated_products": [
+        "Beauty",
+        "Skincare"
+      ],
+      "scam_risk": "Very Low",
+      "scam_risk_description": "Highly compliant startup brand backed by solid international capital investments.",
+      "scam_risk_level": "safe"
+    },
+    {
+      "id": "b_apple",
+      "brand_name": "Apple",
+      "credibility_score": 95,
+      "transparency_score": 93,
+      "website": "https://apple.com/in",
+      "verified": true,
+      "years_in_business": 50,
+      "warranty_policy": "1 Year Parts and AppleCare Protection Support",
+      "customer_service_score": 96,
+      "transparency_rating": "A+",
+      "value_for_money": 82,
+      "advantages": [
+        "Outstanding physical hardware engineering and computational chips",
+        "Peerless multi-device ecosystem integration and security frameworks",
+        "Impeccable direct customer support via official Apple Store hubs"
+      ],
+      "disadvantages": [
+        "Extremely steep premium pricing overhead across all sectors",
+        "Proprietary repair locks restricting non-certified technician repairs"
+      ],
+      "trusted_circle_activity": {
+        "friends": 28,
+        "purchased": 54,
+        "mentors": 15,
+        "experts": 28
+      },
+      "trusted_circle_score": 96,
+      "journey": [
+        { "year": 2024, "score": 94 },
+        { "year": 2025, "score": 95 },
+        { "year": 2026, "score": 95 }
+      ],
+      "status": "Stable",
+      "accountability": {
+        "expectations": 96,
+        "repurchase": 97,
+        "promises": 94
+      },
+      "insights": "Apple continues to represent the apex of global electronic brand credibility, validating hardware performance and software integrity.",
+      "weight_breakdown": {
+        "verification": 98,
+        "sat": 96,
+        "transparency": 93,
+        "consistency": 95,
+        "community": 95,
+        "circle": 96,
+        "maturity": 95
+      },
+      "associated_products": [
+        "Electronics"
+      ],
+      "scam_risk": "Very Low",
+      "scam_risk_description": "Trillion-dollar consumer technology ecosystem with state-of-the-art security compliance.",
+      "scam_risk_level": "safe"
+    },
+    {
+      "id": "b_sony",
+      "brand_name": "Sony",
+      "credibility_score": 93,
+      "transparency_score": 91,
+      "website": "https://sony.co.in",
+      "verified": true,
+      "years_in_business": 78,
+      "warranty_policy": "2 Year Premium Electronics Coverage",
+      "customer_service_score": 92,
+      "transparency_rating": "A",
+      "value_for_money": 85,
+      "advantages": [
+        "Acoustic and screen engineering benchmarks (ANC, BRAVIA panels)",
+        "Stellar historical components durability spanning decades of consumer trust",
+        "Unbeatable gaming ecosystem architecture (PlayStation standard)"
+      ],
+      "disadvantages": [
+        "Complex software navigation interfaces in smart television systems",
+        "High replacement component cost metrics for older audio systems"
+      ],
+      "trusted_circle_activity": {
+        "friends": 18,
+        "purchased": 39,
+        "mentors": 8,
+        "experts": 16
+      },
+      "trusted_circle_score": 92,
+      "journey": [
+        { "year": 2024, "score": 91 },
+        { "year": 2025, "score": 92 },
+        { "year": 2026, "score": 93 }
+      ],
+      "status": "Stable",
+      "accountability": {
+        "expectations": 93,
+        "repurchase": 94,
+        "promises": 92
+      },
+      "insights": "Sony holds an immaculate audio-visual legacy, producing ultra-durable home entertainment systems with verifiable consumer satisfaction scores.",
+      "weight_breakdown": {
+        "verification": 96,
+        "sat": 92,
+        "transparency": 91,
+        "consistency": 93,
+        "community": 93,
+        "circle": 92,
+        "maturity": 95
+      },
+      "associated_products": [
+        "Electronics"
+      ],
+      "scam_risk": "Very Low",
+      "scam_risk_description": "Iconic Japanese conglomerate with bulletproof supply chain transparency logs.",
+      "scam_risk_level": "safe"
+    },
+    {
+      "id": "b_samsung",
+      "brand_name": "Samsung",
+      "credibility_score": 90,
+      "transparency_score": 89,
+      "website": "https://samsung.com/in",
+      "verified": true,
+      "years_in_business": 86,
+      "warranty_policy": "1 Year Standard Comprehensive Home Care Warranty",
+      "customer_service_score": 91,
+      "transparency_rating": "A",
+      "value_for_money": 88,
+      "advantages": [
+        "Global screen fabrication and custom display engineering giant",
+        "Unmatched spare parts network and highly accessible localized repair shops",
+        "Excellent smart home ecosystem integrations (SmartThings architecture)"
+      ],
+      "disadvantages": [
+        "Diverse budget ranges might display variable material longevity",
+        "Major firmware update support timelines differ between price segments"
+      ],
+      "trusted_circle_activity": {
+        "friends": 22,
+        "purchased": 47,
+        "mentors": 9,
+        "experts": 14
+      },
+      "trusted_circle_score": 90,
+      "journey": [
+        { "year": 2024, "score": 88 },
+        { "year": 2025, "score": 89 },
+        { "year": 2026, "score": 90 }
+      ],
+      "status": "Stable",
+      "accountability": {
+        "expectations": 91,
+        "repurchase": 92,
+        "promises": 89
+      },
+      "insights": "Samsung represents an exceptionally reliable option for displays, home automation, and massive consumer electronics repair pathways.",
+      "weight_breakdown": {
+        "verification": 94,
+        "sat": 91,
+        "transparency": 89,
+        "consistency": 90,
+        "community": 90,
+        "circle": 90,
+        "maturity": 95
+      },
+      "associated_products": [
+        "Electronics"
+      ],
+      "scam_risk": "Very Low",
+      "scam_risk_description": "Multinational hardware leader. Extremely robust factory tracking and security standards.",
+      "scam_risk_level": "safe"
     }
   ],
   "products": [

@@ -1,6 +1,6 @@
 {
-  "name": "Remix: Vouch",
-  "description": "The Credit Score for Products and Brands. Determine integrity, review authenticity, warranty compliance, and value for money to generate dynamic trust scores.",
+  "name": "Vouch Brand Trust Platform",
+  "description": "The Credit Score for Brands. Vouch is India's Brand Trust Intelligence Platform evaluating Small Businesses, Hidden Gems, and top brands on authentic customer scores and scam risk indicators.",
   "requestFramePermissions": [],
   "majorCapabilities": [
     "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
