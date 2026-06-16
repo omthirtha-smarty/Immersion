@@ -62,134 +62,134 @@ interface Brand {
 const fakeHiddenGems: Brand[] = [
   {
     id: "hg_1",
-    brand_name: "VoltStream India",
-    credibility_score: 91,
-    transparency_score: 93,
-    website: "https://voltstream.in",
+    brand_name: "GlowNest",
+    credibility_score: 94,
+    transparency_score: 96,
+    website: "https://glownest.co",
     verified: true,
     years_in_business: 4,
-    warranty_policy: "3 Years Comprehensive Smart Swap",
-    customer_service_score: 92,
-    transparency_rating: "A",
-    value_for_money: 94,
-    advantages: ["Ultra-high thermal efficiency direct-inverter tech", "Same-day doorstep service dispatch"],
-    disadvantages: ["Limited offline touchpoint availability", "Online-only parts ordering logistics"],
-    trusted_circle_activity: { friends: 5, purchased: 12, mentors: 3, experts: 4 },
-    trusted_circle_score: 92,
-    journey: [{ year: 2024, score: 85 }, { year: 2025, score: 88 }, { year: 2026, score: 91 }],
+    warranty_policy: "2 Year Clean-Ingredient & Freshness Guarantee",
+    customer_service_score: 96,
+    transparency_rating: "A+",
+    value_for_money: 89,
+    advantages: ["100% certified bio-derived ingredients", "Open-source batch testing logs and lab certificates", "Excellent dermatological ratings with zero reported adverse indicators"],
+    disadvantages: ["Slightly higher premium pricing tier", "Limited batch runs occasionally lead to pre-order delays"],
+    trusted_circle_activity: { friends: 8, purchased: 22, mentors: 4, experts: 6 },
+    trusted_circle_score: 94,
+    journey: [{ year: 2024, score: 89 }, { year: 2025, score: 91 }, { year: 2026, score: 94 }],
     status: "Stable",
-    accountability: { expectations: 91, repurchase: 93, promises: 90 },
-    insights: "VoltStream has gained exceptional traction in suburban markets through modular appliance design and direct-to-consumer digital channels.",
+    accountability: { expectations: 95, repurchase: 96, promises: 94 },
+    insights: "GlowNest has set the benchmark for clean beauty by publishing full third-party chromatographic testing logs for every batch.",
     weight_breakdown: {
-      verification: 92,
-      sat: 89,
-      transparency: 93,
-      consistency: 90,
-      community: 88,
-      circle: 95,
-      maturity: 75
+      verification: 98,
+      sat: 96,
+      transparency: 96,
+      consistency: 93,
+      community: 95,
+      circle: 94,
+      maturity: 85
     },
     scam_risk: "Very Low",
-    scam_risk_description: "Verified direct OEM partner. Zero flagged complaints, safe corporate footprint.",
+    scam_risk_description: "Fully verified brand footprint. Lab registries are transparent and third-party audited.",
     scam_risk_level: "safe"
   },
   {
     id: "hg_2",
-    brand_name: "PureDew Labs",
-    credibility_score: 87,
-    transparency_score: 86,
-    website: "https://puredewlabs.co.in",
+    brand_name: "HerbAura",
+    credibility_score: 91,
+    transparency_score: 93,
+    website: "https://herbaura.in",
     verified: true,
-    years_in_business: 2,
-    warranty_policy: "2 Years No-Questions Filtration Shield",
-    customer_service_score: 88,
-    transparency_rating: "A-",
-    value_for_money: 89,
-    advantages: ["Advanced bio-mineral retention tech", "Extremely low filter replacement cost"],
-    disadvantages: ["Minor vibration on high-pressure input", "App setup requires stable 2.4GHz Wi-Fi"],
-    trusted_circle_activity: { friends: 3, purchased: 9, mentors: 1, experts: 2 },
-    trusted_circle_score: 87,
-    journey: [{ year: 2025, score: 81 }, { year: 2026, score: 87 }],
-    status: "Improving",
-    accountability: { expectations: 88, repurchase: 89, promises: 86 },
-    insights: "A promising water filtration startup with open transparency on lead/mercury testing specs.",
+    years_in_business: 5,
+    warranty_policy: "1 Year Pure-Extract Performance Pledge",
+    customer_service_score: 92,
+    transparency_rating: "A",
+    value_for_money: 91,
+    advantages: ["Sustainably harvested Himalayan herbs", "Carbon-neutral zero-plastic packaging", "Direct-to-consumer ethical fair-trade supply loops"],
+    disadvantages: ["Slight natural scent variance between seasonal batches", "Relatively slow standard delivery logs"],
+    trusted_circle_activity: { friends: 5, purchased: 18, mentors: 3, experts: 5 },
+    trusted_circle_score: 92,
+    journey: [{ year: 2024, score: 86 }, { year: 2025, score: 89 }, { year: 2026, score: 91 }],
+    status: "Stable",
+    accountability: { expectations: 92, repurchase: 91, promises: 90 },
+    insights: "HerbAura excels in publishing geographic harvest origin trails for every botanical formulation.",
     weight_breakdown: {
-      verification: 88,
-      sat: 91,
-      transparency: 86,
-      consistency: 85,
-      community: 84,
-      circle: 90,
-      maturity: 40
+      verification: 95,
+      sat: 92,
+      transparency: 93,
+      consistency: 90,
+      community: 91,
+      circle: 92,
+      maturity: 88
     },
     scam_risk: "Very Low",
-    scam_risk_description: "Fully certified water filtration standards. No compliance anomalies detected.",
+    scam_risk_description: "Direct agricultural tie-ins with certified fair trade farms. Audits show high organic consistency.",
     scam_risk_level: "safe"
   },
   {
     id: "hg_3",
-    brand_name: "Aura Air-Tech",
-    credibility_score: 89,
-    transparency_score: 84,
-    website: "https://auraairtech.com",
+    brand_name: "AuraWell",
+    credibility_score: 88,
+    transparency_score: 89,
+    website: "https://aurawell.org",
     verified: true,
     years_in_business: 3,
-    warranty_policy: "5 Years Compressor + 2 Years Parts",
-    customer_service_score: 90,
+    warranty_policy: "3 Year Wellness Alignment Guarantee",
+    customer_service_score: 89,
     transparency_rating: "B+",
-    value_for_money: 92,
-    advantages: ["Grade-H13 True HEPA filtration", "Whisper-quiet sleep profile (22dB)"],
-    disadvantages: ["Filter replenishment requires 10-day pre-order", "Power cord is relatively short (1.5m)"],
-    trusted_circle_activity: { friends: 6, purchased: 8, mentors: 2, experts: 3 },
-    trusted_circle_score: 89,
-    journey: [{ year: 2024, score: 82 }, { year: 2025, score: 85 }, { year: 2026, score: 89 }],
+    value_for_money: 87,
+    advantages: ["Hypoallergenic organic materials used", "Custom app wellness synchronization without lock-in subscriptions", "Excellent 24/7 consumer chat support resolution"],
+    disadvantages: ["Integration is highly optimized for local protocols only"],
+    trusted_circle_activity: { friends: 4, purchased: 11, mentors: 2, experts: 3 },
+    trusted_circle_score: 88,
+    journey: [{ year: 2024, score: 83 }, { year: 2025, score: 85 }, { year: 2026, score: 88 }],
     status: "Improving",
-    accountability: { expectations: 90, repurchase: 88, promises: 89 },
-    insights: "Highly competitive air purifier pricing, with solid community certifications and quiet performance ratios.",
+    accountability: { expectations: 89, repurchase: 88, promises: 87 },
+    insights: "AuraWell has quickly established itself as a leading trust provider of ethical wellness and fitness trackers.",
     weight_breakdown: {
       verification: 90,
-      sat: 88,
-      transparency: 84,
-      consistency: 91,
-      community: 86,
-      circle: 85,
-      maturity: 60
+      sat: 89,
+      transparency: 89,
+      consistency: 87,
+      community: 88,
+      circle: 88,
+      maturity: 70
     },
     scam_risk: "Very Low",
-    scam_risk_description: "Active corporate registry. Strong technical audits with positive consumer feedback.",
+    scam_risk_description: "No registry compliance delays. Consistent positive support reports.",
     scam_risk_level: "safe"
   },
   {
     id: "hg_4",
-    brand_name: "SwiftBuy Mart",
-    credibility_score: 34,
-    transparency_score: 15,
-    website: "https://swiftbuymart-fake.cc",
+    brand_name: "ShadyDeals Shop",
+    credibility_score: 31,
+    transparency_score: 12,
+    website: "https://shadydealsshop-fake.cc",
     verified: false,
     years_in_business: 1,
-    warranty_policy: "Null - Customer contacts bounced with error 404.",
-    customer_service_score: 10,
+    warranty_policy: "No genuine coverage. Customer contacts are routinely blocked.",
+    customer_service_score: 15,
     transparency_rating: "F",
-    value_for_money: 20,
-    advantages: ["Extremely low upfront price quotes"],
-    disadvantages: ["Unresponsive customer support lines", "Defective components on 45% of units", "No refund physical location listed"],
-    trusted_circle_activity: { friends: 0, purchased: 1, mentors: 0, experts: 0 },
-    trusted_circle_score: 18,
-    journey: [{ year: 2025, score: 55 }, { year: 2026, score: 34 }],
+    value_for_money: 18,
+    advantages: ["Extremely low upfront advertised price tags"],
+    disadvantages: ["Rampant bot-generated review networks", "Direct drop-shipping with defective rate claims near 48%", "Absent corporate identity and non-existing support emails"],
+    trusted_circle_activity: { friends: 0, purchased: 0, mentors: 0, experts: 0 },
+    trusted_circle_score: 10,
+    journey: [{ year: 2025, score: 45 }, { year: 2026, score: 31 }],
     status: "Declining",
-    accountability: { expectations: 12, repurchase: 5, promises: 0 },
-    insights: "WARNING: High scam triggers. Several customer complaints alleging fake warranty promises, non-shipment, and duplicate billing.",
+    accountability: { expectations: 10, repurchase: 4, promises: 2 },
+    insights: "WARNING: Flagged as highly suspicious. Acts as a blind dropshipping shell with multiple complaints of cloned bank charges.",
     weight_breakdown: {
-      verification: 10,
-      sat: 25,
-      transparency: 15,
-      consistency: 20,
-      community: 40,
-      circle: 15,
+      verification: 12,
+      sat: 15,
+      transparency: 12,
+      consistency: 18,
+      community: 25,
+      circle: 10,
       maturity: 10
     },
-    scam_risk: "HIGH RISK WARNING",
-    scam_risk_description: "SUSPICIOUS ACTIVITY TRIGGERED: Brand fails registration audits, acts as a dropshipping shell, and reports 45% failure rate within 30 days.",
+    scam_risk: "HIGH SCAM DANGER",
+    scam_risk_description: "CRITICAL RISK DETECTED: Cloned corporate coordinates, automated feedback networks, and zero dispute resolution pathways.",
     scam_risk_level: "danger"
   }
 ];
@@ -242,8 +242,8 @@ export default function App() {
   const [expandedBrandComponents, setExpandedBrandComponents] = useState<string | null>(null);
   const [votedAspects, setVotedAspects] = useState<{ [key: string]: boolean }>({});
   const [isVotingLoader, setIsVotingLoader] = useState<{ [key: string]: boolean }>({});
-  const [directoryMode, setDirectoryMode] = useState<'brands' | 'appliances'>('brands');
-  const [compareViewMode, setCompareViewMode] = useState<'brands' | 'appliances'>('brands');
+  const [directoryMode, setDirectoryMode] = useState<'brands' | 'never_render_appliances'>('brands');
+  const [compareViewMode, setCompareViewMode] = useState<'brands' | 'never_render_appliances'>('brands');
 
   // Review submission state
   const [reviewForm, setReviewForm] = useState({ author: '', rating: 5, text: '', verified: true });
@@ -273,8 +273,8 @@ export default function App() {
   });
   const [adminEditId, setAdminEditId] = useState<string | null>(null);
 
-  // Categories helper suited for user required hardware + skincare items
-  const categoriesList = ['All', 'Skincare & Cream', 'Electric Appliances', 'Smart TVs', 'Refrigerators', 'Washing Machines', 'Headphones', 'Laptops', 'Smart Watches'];
+  // Categories helper suited for clean brands
+  const categoriesList = ['All', 'Clean Skincare', 'Herbal Remedies', 'Wearables', 'Home Goods', 'Beverages', 'Sustainable Textiles', 'Electronics'];
   const [selectedCategory, setSelectedCategory] = useState('All');
 
   // Load app data from local Express APIs
@@ -367,14 +367,13 @@ export default function App() {
     const lowerSearch = searchQuery.toLowerCase().trim();
     
     const categoryQueryMap: { [key: string]: string } = {
-      'Skincare & Cream': 'skincare',
-      'Electric Appliances': 'appliances',
-      'Smart TVs': 'smart tvs',
-      'Refrigerators': 'refrigerators',
-      'Washing Machines': 'washing machines',
-      'Headphones': 'headphone',
-      'Laptops': 'laptops',
-      'Smart Watches': 'smartwatches'
+      'Clean Skincare': 'skincare',
+      'Herbal Remedies': 'remedies',
+      'Wearables': 'wearables',
+      'Home Goods': 'goods',
+      'Beverages': 'beverages',
+      'Sustainable Textiles': 'textiles',
+      'Electronics': 'electronics'
     };
 
     let matchedBrands = brands.filter(b => {
@@ -387,10 +386,7 @@ export default function App() {
         if (targetProductKeyword) {
           const associates = b.associated_products?.map(p => p.toLowerCase()) || [];
           if (targetProductKeyword === 'skincare') {
-            return associates.some(assoc => assoc.includes('skincare') || assoc.includes('hair cream') || assoc.includes('cream'));
-          }
-          if (targetProductKeyword === 'appliances') {
-            return associates.some(assoc => assoc.includes('appliances') || assoc.includes('refrigerators') || assoc.includes('washing machines') || assoc.includes('air conditioners') || assoc.includes('bajaj') || assoc.includes('voltas') || assoc.includes('godrej'));
+            return associates.some(assoc => assoc.includes('skincare') || assoc.includes('hair cream') || assoc.includes('cream') || assoc.includes('clean skincare'));
           }
           return associates.some(assoc => assoc.includes(targetProductKeyword) || targetProductKeyword.includes(assoc));
         }
@@ -432,22 +428,14 @@ export default function App() {
     // Sort order: best to least (highest credibility score desc)
     matchedBrands.sort((a, b) => b.credibility_score - a.credibility_score);
 
-    const isHairCream = lowerSearch.includes('hair cream') || lowerSearch.includes('cream') || selectedCategory === 'Skincare & Cream';
-    const isHairDryer = lowerSearch.includes('hair dryer') || lowerSearch.includes('dryer') || lowerSearch.includes('blow dry') || lowerSearch.includes('supersonic');
+    const isHairCream = lowerSearch.includes('hair cream') || lowerSearch.includes('cream') || selectedCategory === 'Clean Skincare';
 
     if (isHairCream) {
-      // Moxie, Loreal, Kerastace, Tresseme, Himalaya ordered priority, Dyson last
-      const dysonIndex = matchedBrands.findIndex(b => b.brand_name.toLowerCase() === 'dyson');
-      if (dysonIndex > -1) {
-        const [dysonBrand] = matchedBrands.splice(dysonIndex, 1);
-        matchedBrands.push(dysonBrand);
-      }
-    } else if (isHairDryer) {
-      // Dyson, Panasonic, Havells, Philips, Agaro
-      const dysonIndex = matchedBrands.findIndex(b => b.brand_name.toLowerCase() === 'dyson');
-      if (dysonIndex > -1) {
-        const [dysonBrand] = matchedBrands.splice(dysonIndex, 1);
-        matchedBrands.unshift(dysonBrand);
+      // Prioritize GlowNest and other organic health brands
+      const glowNestIndex = matchedBrands.findIndex(b => b.brand_name.toLowerCase() === 'glownest');
+      if (glowNestIndex > -1) {
+        const [glowBrand] = matchedBrands.splice(glowNestIndex, 1);
+        matchedBrands.unshift(glowBrand);
       }
     }
 
@@ -815,7 +803,7 @@ export default function App() {
                 <span id="logo-text-p1" className="text-2xl font-black tracking-tight text-white">Vouch</span>
                 <span id="logo-badge" className="text-[10px] font-bold bg-[#12b76a]/20 text-[#12b76a] px-1.5 py-0.5 rounded uppercase tracking-wider">India</span>
               </div>
-              <p className="text-[11px] text-slate-400 font-medium tracking-wide">The Credit Score for Products & Brands</p>
+              <p className="text-[11px] text-slate-400 font-medium tracking-wide">The Credit Score for Brands</p>
             </div>
           </div>
 
@@ -823,86 +811,85 @@ export default function App() {
             <button
               id="tab-home"
               onClick={() => setCurrentTab('home')}
-              className={`px-3.5 py-1.5 rounded-lg text-xs font-semibold uppercase tracking-wider transition-all duration-200 ${
+              className={`px-3 py-1.5 rounded-lg text-xs font-semibold tracking-wider transition-all duration-200 ${
                 currentTab === 'home' 
-                  ? 'bg-[#12b76a] text-slate-950 shadow-md' 
+                  ? 'bg-[#12b76a] text-slate-950 shadow-md font-bold' 
                   : 'text-slate-400 hover:text-slate-100 hover:bg-slate-800/50'
               }`}
             >
-              Home
+              🏠 Home
             </button>
             <button
               id="tab-directory"
               onClick={() => { setCurrentTab('directory'); setSelectedCategory('All'); }}
-              className={`px-3.5 py-1.5 rounded-lg text-xs font-semibold uppercase tracking-wider transition-all duration-200 ${
+              className={`px-3 py-1.5 rounded-lg text-xs font-semibold tracking-wider transition-all duration-200 ${
                 currentTab === 'directory' 
-                  ? 'bg-[#12b76a] text-slate-950 shadow-md' 
+                  ? 'bg-[#12b76a] text-slate-950 shadow-md font-bold' 
                   : 'text-slate-400 hover:text-slate-100 hover:bg-slate-800/50'
               }`}
             >
-              Trust Directory
+              🔍 Discover Brands
+            </button>
+            <button
+              id="tab-top-trusted"
+              onClick={() => setCurrentTab('top_trusted')}
+              className={`px-3 py-1.5 rounded-lg text-xs font-semibold tracking-wider transition-all duration-200 ${
+                currentTab === 'top_trusted' 
+                  ? 'bg-[#12b76a] text-slate-950 shadow-md font-bold' 
+                  : 'text-slate-400 hover:text-slate-100 hover:bg-slate-800/50'
+              }`}
+            >
+              💎 Hidden Gems
             </button>
             <button
               id="tab-compare"
               onClick={() => setCurrentTab('compare')}
-              className={`px-3.5 py-1.5 rounded-lg text-xs font-semibold uppercase tracking-wider transition-all duration-200 flex items-center gap-1.5 ${
+              className={`px-3 py-1.5 rounded-lg text-xs font-semibold tracking-wider transition-all duration-200 flex items-center gap-1 ${
                 currentTab === 'compare' 
-                  ? 'bg-[#12b76a] text-slate-950 shadow-md' 
+                  ? 'bg-[#12b76a] text-slate-950 shadow-md font-bold' 
                   : 'text-slate-400 hover:text-slate-100 hover:bg-slate-800/50'
               }`}
             >
-              Compare
-              {compareList.length > 0 && (
-                <span className="bg-slate-900 text-[#12b76a] text-[10px] font-bold rounded-full h-4 w-4 flex items-center justify-center">
-                  {compareList.length}
+              ⚖️ Compare Brands
+              {compareBrandsList.length > 0 && (
+                <span className="bg-slate-900 text-[#12b76a] text-[10px] font-bold rounded-full h-4 w-4 flex items-center justify-center font-mono">
+                  {compareBrandsList.length}
                 </span>
               )}
             </button>
             <button
               id="tab-transparency"
               onClick={() => setCurrentTab('transparency')}
-              className={`px-3.5 py-1.5 rounded-lg text-xs font-semibold uppercase tracking-wider transition-all duration-200 ${
+              className={`px-3 py-1.5 rounded-lg text-xs font-semibold tracking-wider transition-all duration-200 ${
                 currentTab === 'transparency' 
-                  ? 'bg-[#12b76a] text-slate-950 shadow-md' 
+                  ? 'bg-[#12b76a] text-slate-950 shadow-md font-bold' 
                   : 'text-slate-400 hover:text-slate-100 hover:bg-slate-800/50'
               }`}
             >
-              Transparency
-            </button>
-            <button
-              id="tab-top-trusted"
-              onClick={() => setCurrentTab('top_trusted')}
-              className={`px-3.5 py-1.5 rounded-lg text-xs font-semibold uppercase tracking-wider transition-all duration-200 ${
-                currentTab === 'top_trusted' 
-                  ? 'bg-[#12b76a] text-slate-950 shadow-md' 
-                  : 'text-slate-400 hover:text-slate-100 hover:bg-slate-800/50'
-              }`}
-            >
-              Top Trusted
+              📈 Trust Insights
             </button>
             <button
               id="tab-ai-assistant"
               onClick={() => setCurrentTab('chat')}
-              className={`px-3.5 py-1.5 rounded-lg text-xs font-semibold uppercase tracking-wider transition-all duration-200 flex items-center gap-1 ${
+              className={`px-3 py-1.5 rounded-lg text-xs font-semibold tracking-wider transition-all duration-200 flex items-center gap-1 ${
                 currentTab === 'chat' 
-                  ? 'bg-indigo-600 text-white shadow-md' 
+                  ? 'bg-indigo-600 text-white shadow-md font-bold' 
                   : 'text-indigo-400 hover:text-indigo-200 hover:bg-slate-800/50'
               }`}
             >
-              <Sparkles className="h-3 w-3" />
-              AI Assistant <span className="text-[9px] bg-indigo-500/20 text-indigo-300 font-bold px-1.5 rounded ml-0.5">Live</span>
+              🤖 Ask Vouch
             </button>
             {user?.isAdmin && (
               <button
                 id="tab-admin"
                 onClick={() => setCurrentTab('admin')}
-                className={`px-3.5 py-1.5 rounded-lg text-xs font-semibold uppercase tracking-wider transition-all duration-200 ${
+                className={`px-3 py-1.5 rounded-lg text-xs font-semibold tracking-wider transition-all duration-200 ${
                   currentTab === 'admin' 
-                    ? 'bg-rose-600 text-white shadow-md' 
-                    : 'text-rose-400 hover:text-rose-200 hover:bg-slate-800/50'
+                    ? 'bg-rose-600 text-white shadow-md font-bold' 
+                    : 'text-rose-450 hover:text-rose-200 hover:bg-slate-800/50'
                 }`}
               >
-                Admin Panel
+                ⚙️ Admin
               </button>
             )}
           </nav>
@@ -963,23 +950,27 @@ export default function App() {
               </div>
 
               <h1 id="vouch-hero-title" className="text-4xl sm:text-5xl md:text-6xl font-black tracking-tight text-white leading-[1.1] max-w-4xl mx-auto">
-                Verify Trust <span className="bg-gradient-to-r from-emerald-400 via-teal-400 to-indigo-500 bg-clip-text text-transparent">Before You Buy</span>
+                Trust Before <span className="bg-gradient-to-r from-emerald-400 via-teal-400 to-indigo-500 bg-clip-text text-transparent">Transaction</span>
               </h1>
 
-              <p id="vouch-hero-description" className="text-slate-400 text-sm sm:text-base md:text-lg max-w-2xl mx-auto mt-6 leading-relaxed">
-                Vouch calculates dynamic rating integrity scores, authenticating customer warranties and brand commitments for refrigerators, smart displays and electric appliances in India.
+              <p id="vouch-hero-description" className="text-slate-200 text-base sm:text-lg md:text-xl font-bold max-w-2xl mx-auto mt-4 tracking-tight">
+                The Credit Score for Brands
+              </p>
+
+              <p className="text-slate-450 text-xs sm:text-sm max-w-xl mx-auto mt-3 leading-relaxed">
+                Vouch calculates Dynamic Trust Scores, authenticating customer guarantees, verified reviews, and scam risk indicators for premium brands and boutique businesses in India.
               </p>
 
               {/* Central Search block precisely aligned as screenshot */}
               <form onSubmit={handleSearchExecute} className="max-w-2xl mx-auto mt-10">
                 <div className="flex flex-col sm:flex-row items-stretch bg-[#0c1325] border border-slate-700/80 p-1.5 rounded-2xl gap-2 focus-within:border-emerald-500/40 transition-all shadow-lg">
-                  <div className="flex-1 flex items-center px-3.5 gap-2.5">
+                   <div className="flex-1 flex items-center px-3.5 gap-2.5">
                     <Search className="h-5 w-5 text-slate-400 shrink-0" />
                     <input 
                       type="text"
                       value={searchQuery}
                       onChange={(e) => setSearchQuery(e.target.value)}
-                      placeholder="Search product models, categories (e.g., Laptops), or brands..."
+                      placeholder="Search brands, boutique offerings, or sustainable categories (e.g., Skincare)..."
                       className="w-full bg-transparent border-none text-slate-100 text-sm focus:outline-none placeholder-slate-500"
                     />
                   </div>
@@ -1020,7 +1011,7 @@ export default function App() {
                 </div>
                 <div>
                   <h3 className="text-sm font-bold uppercase tracking-wider text-slate-200">Review Authenticity Weight</h3>
-                  <p className="text-xs text-slate-400 mt-2 leading-relaxed">
+                  <p className="text-xs text-slate-100 mt-2 leading-relaxed">
                     We parse and target client accounts across retail platforms in India. Suspicious bot strings and multi-item copy/paste clusters are weighted out of the scoring schema automatically.
                   </p>
                 </div>
@@ -1032,7 +1023,7 @@ export default function App() {
                 </div>
                 <div>
                   <h3 className="text-sm font-bold uppercase tracking-wider text-slate-200">Warranty Compliance</h3>
-                  <p className="text-xs text-slate-400 mt-2 leading-relaxed">
+                  <p className="text-xs text-slate-100 mt-2 leading-relaxed">
                     Tracks whether manufacturing brands provide actual replacement speed or trap users in fine print parameters. Scores are calculated through real consumer claims filed.
                   </p>
                 </div>
@@ -1043,9 +1034,9 @@ export default function App() {
                   <Activity className="h-6 w-6" />
                 </div>
                 <div>
-                  <h3 className="text-sm font-bold uppercase tracking-wider text-slate-200">RMA and Return Rates</h3>
-                  <p className="text-xs text-slate-400 mt-2 leading-relaxed">
-                    Calculates returning ratios on defective smart displays, refrigerators, and watches. Emerging brands with low fault rates receive instant visibility.
+                  <h3 className="text-sm font-bold uppercase tracking-wider text-slate-200">Scam Risk Indicators</h3>
+                  <p className="text-xs text-slate-100 mt-2 leading-relaxed">
+                    Calculates warning signals, dropshipping traits, and automated feedback patterns. Brands with poor compliance or high flags are instantly highlighted for consumer safety.
                   </p>
                 </div>
               </div>
@@ -1061,7 +1052,7 @@ export default function App() {
                     <TrendingUp className="h-5 w-5 text-[#12b76a]" />
                     Trending Brand Houses Scored This Week
                   </h2>
-                  <p className="text-xs text-slate-400">High search volumes on credibility ratings across electronic and home consumer markets.</p>
+                  <p className="text-xs text-slate-400">High search volumes on credibility scores across organic, skincare, apparel, and direct-to-consumer brand segments.</p>
                 </div>
 
                 <div className="divide-y divide-slate-800/60 font-medium">
@@ -1175,7 +1166,7 @@ export default function App() {
                   <Shield className="h-5 w-5 text-emerald-500" />
                   How is a Vouch Trust Score generated?
                 </h3>
-                <p className="text-xs text-slate-400 mt-1">Our platform monitors and updates product credit scores dynamically based on 5 core pillars daily.</p>
+                <p className="text-xs text-slate-400 mt-1">Our platform monitors and updates brand credit scores dynamically based on 5 core pillars daily.</p>
               </div>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 font-medium">
@@ -1193,8 +1184,8 @@ export default function App() {
 
                 <div className="bg-slate-900/70 p-4.5 rounded-xl border border-slate-800">
                   <div className="text-xs text-[#12b76a] mb-1 font-bold">Pillar 03</div>
-                  <h4 className="text-sm font-bold text-slate-100">Merchant RMA tracking</h4>
-                  <p className="text-xs text-slate-400 mt-1">Calculates returning ratios on defective smart displays or washing machines.</p>
+                  <h4 className="text-sm font-bold text-slate-100">Return & Scam Risk</h4>
+                  <p className="text-xs text-slate-400 mt-1">Calculates warning signals, dropshipping traits, and customer refund claims.</p>
                 </div>
 
                 <div className="bg-slate-900/70 p-4.5 rounded-xl border border-slate-800">
@@ -1223,7 +1214,7 @@ export default function App() {
                   <Clipboard className="h-6 w-6 text-[#12b76a]" />
                   Verify Trust & Authenticity
                 </h1>
-                <p className="text-xs text-slate-400 mt-1">Sift through raw manufacturing policies, refund RMAs, and authenticated customer reviews in India.</p>
+                <p className="text-xs text-slate-400 mt-1">Sift through direct-to-consumer guarantees, scam risk warnings, and authenticated customer reviews in India.</p>
               </div>
 
               {/* Strictly focusing on verified brand houses */}
@@ -1534,11 +1525,11 @@ export default function App() {
                               onClick={() => setExpandedBrandComponents(prev => prev === b.id ? null : b.id)}
                               className={`flex-1 border rounded p-1.5 uppercase font-black text-[9px] tracking-wide transition cursor-pointer text-center ${
                                 expandedBrandComponents === b.id
-                                  ? 'bg-emerald-500 text-slate-950 border-emerald-500'
-                                  : 'bg-indigo-950/60 hover:bg-indigo-950 text-indigo-300 border-indigo-900/60'
+                                  ? 'bg-[#12b76a] text-slate-950 border-[#12b76a] font-black'
+                                  : 'bg-slate-900 hover:bg-slate-800 border-[#12b76a]/30 text-[#12b76a] font-bold'
                               }`}
                             >
-                              {expandedBrandComponents === b.id ? 'Hide weighted components' : 'Weighted trust components'}
+                              {expandedBrandComponents === b.id ? 'Hide weighted components' : 'View Weighted Components'}
                             </button>
                           </div>
 
@@ -1740,8 +1731,8 @@ export default function App() {
                 ) : (
                   <div className="col-span-full bg-[#070c18] border border-slate-800 p-12 text-center rounded-2xl">
                     <Clipboard className="h-10 w-10 text-slate-600 mx-auto" />
-                    <p className="text-slate-400 text-sm font-bold mt-3">No matching scored models found.</p>
-                    <p className="text-xs text-slate-500 mt-1">Try resetting filters or explore other appliance catalogs.</p>
+                    <p className="text-slate-400 text-sm font-bold mt-3">No matching brands found.</p>
+                    <p className="text-xs text-slate-500 mt-1">Try resetting filters or explore other direct-to-consumer brand categories.</p>
                   </div>
                 )}
               </div>
@@ -2053,63 +2044,59 @@ export default function App() {
           </div>
         )}
 
-        {/* Top Scored products leaderboard */}
+        {/* Top Scored brands leaderboard */}
         {currentTab === 'top_trusted' && (
           <div id="vouch-top-trusted-view" className="p-6 md:p-8 space-y-8 animate-fadeIn">
             <div>
               <h1 className="text-2xl font-black text-white tracking-tight flex items-center gap-2">
                 <Award className="h-6 w-6 text-[#12b76a]" />
-                Top 10 Highly Trusted Leaderboard
+                Brand Trust Scores Leaderboard
               </h1>
-              <p className="text-xs text-slate-400 mt-1 font-medium">Real-time compilation of the highest Vouch trust ratings on the Indian consumer tier currently live.</p>
+              <p className="text-xs text-slate-400 mt-1 font-medium">Real-time compilation of the highest Vouch trust ratings across premium DTC brands and boutique houses currently live.</p>
             </div>
 
             <div className="overflow-hidden border border-slate-800 rounded-2xl bg-[#040813] font-medium">
               <table className="w-full text-left border-collapse text-xs sm:text-sm">
                 <thead>
                   <tr className="border-b border-slate-800 bg-[#070d1e] text-slate-400 text-xs font-black uppercase tracking-wider">
-                    <th className="p-4 text-center w-16">Rank</th>
-                    <th className="p-4">Product appliance</th>
-                    <th className="p-4">Category</th>
-                    <th className="p-4 text-center">Vouch score</th>
-                    <th className="p-4 text-center">Action</th>
+                    <th className="p-4 text-center w-16 font-mono">Rank</th>
+                    <th className="p-4">Brand Profile</th>
+                    <th className="p-4">Primary Offerings</th>
+                    <th className="p-4 text-center w-36">Vouch score</th>
+                    <th className="p-4 text-center w-32">Action</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-slate-800/80 text-slate-300">
-                  {products.sort((a,b) => b.trust_score - a.trust_score).slice(0, 10).map((p, idx) => (
-                    <tr key={p.id} className="hover:bg-slate-900/30 transition cursor-pointer" onClick={() => setSelectedProductDetails(p)}>
-                      <td className="p-4 text-center font-mono font-bold text-slate-400 text-base">
+                  {brands.slice().sort((a,b) => b.credibility_score - a.credibility_score).slice(0, 10).map((b, idx) => (
+                    <tr key={b.id} className="hover:bg-slate-900/30 transition cursor-pointer" onClick={() => setSelectedBrandOverview(b)}>
+                      <td className="p-4 text-center font-mono font-bold text-slate-455 text-base">
                         {idx + 1 === 1 ? '🥇' : idx + 1 === 2 ? '🥈' : idx + 1 === 3 ? '🥉' : idx + 1}
                       </td>
                       <td className="p-4">
-                        <div className="flex items-center gap-3">
-                          <img 
-                            src={p.image_url} 
-                            alt={p.name} 
-                            className="w-10 h-10 object-cover rounded-lg border border-slate-700 shrink-0" 
-                          />
+                        <div className="flex items-center gap-3.5">
+                          <div className="w-10 h-10 flex items-center justify-center rounded-lg border border-slate-700 bg-slate-900 font-extrabold text-[#12b76a] text-xs shrink-0 font-mono">
+                            {b.brand_name.substring(0, 2).toUpperCase()}
+                          </div>
                           <div>
-                            <p className="font-bold text-white text-sm leading-tight">{p.name}</p>
-                            <p className="text-[10px] text-slate-400 mt-0.5">Brand: {p.brand}</p>
+                            <p className="font-bold text-white text-sm leading-tight">{b.brand_name}</p>
+                            <span className="text-[10px] text-slate-400 font-bold mt-0.5 block">{b.years_in_business} Years Established</span>
                           </div>
                         </div>
                       </td>
-                      <td className="p-4 text-xs font-bold text-slate-400 uppercase tracking-wider">{p.category}</td>
+                      <td className="p-4 text-xs font-bold text-slate-300 uppercase tracking-wide">
+                        {b.associated_products?.join(', ') || 'Various Offerings'}
+                      </td>
                       <td className="p-4 text-center">
-                        <span className={`px-2.5 py-1 rounded-lg border text-xs font-extrabold font-mono ${getScoreColor(p.trust_score)}`}>
-                          {p.trust_score}
+                        <span className={`px-3 py-1 rounded-lg border text-xs font-extrabold font-mono ${getScoreColor(b.credibility_score)}`}>
+                          {b.credibility_score}
                         </span>
                       </td>
                       <td className="p-4 text-center">
                         <button 
-                          onClick={(e) => { e.stopPropagation(); handleToggleSave(p.id, e); }}
-                          className={`p-2 rounded-xl transition ${
-                            savedProducts.includes(p.id) 
-                              ? 'text-amber-400 bg-amber-400/10 border border-amber-500/20' 
-                              : 'text-slate-500 hover:text-white bg-slate-900 border border-slate-800'
-                          }`}
+                          onClick={(e) => { e.stopPropagation(); setSelectedBrandOverview(b); }}
+                          className="bg-[#12b76a]/10 hover:bg-[#12b76a] text-[#12b76a] hover:text-slate-950 text-[10px] font-black uppercase tracking-wider px-3.5 py-1.5 rounded-lg border border-[#12b76a]/30 transition"
                         >
-                          <Star className="h-3.5 w-3.5 fill-current" />
+                          View Profile
                         </button>
                       </td>
                     </tr>
@@ -2225,21 +2212,21 @@ export default function App() {
                 <Shield className="h-6 w-6 text-rose-500" />
                 Vouch Admin Central Dashboard
               </h1>
-              <p className="text-xs text-slate-400 mt-1">Add electronic appliances, manage corporate transparency grade benchmarks, calibrate authentic rating weights, and monitor real-time affiliate revenue logs.</p>
+              <p className="text-xs text-slate-400 mt-1">Audit active brand houses, manage corporate transparency grade benchmarks, calibrate authentic rating weights, and monitor organic referral logs.</p>
             </div>
 
-            {/* Live stats section for Admin */}
+            {/* Live stats section for Admin Matching Brand Trust Intelligence */}
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 font-medium">
               <div className="bg-[#080e1b] border border-slate-800 rounded-xl p-4.5 space-y-1">
-                <p className="text-xs text-slate-450 uppercase">Total active Catalog</p>
-                <p className="text-2xl font-mono font-extrabold text-[#12b76a]">{products.length} Products</p>
-              </div>
-              <div className="bg-[#080e1b] border border-slate-800 rounded-xl p-4.5 space-y-1">
-                <p className="text-xs text-slate-450 uppercase">Archived Corporate profiles</p>
+                <p className="text-xs text-slate-450 uppercase">Monitored Brand Houses</p>
                 <p className="text-2xl font-mono font-extrabold text-[#12b76a]">{brands.length} Brands</p>
               </div>
               <div className="bg-[#080e1b] border border-slate-800 rounded-xl p-4.5 space-y-1">
-                <p className="text-xs text-slate-450 uppercase">Unmoderated User reviews</p>
+                <p className="text-xs text-slate-450 uppercase">Verified Small Businesses</p>
+                <p className="text-2xl font-mono font-extrabold text-[#12b76a]">{brands.filter(b => b.verified).length} Active</p>
+              </div>
+              <div className="bg-[#080e1b] border border-slate-800 rounded-xl p-4.5 space-y-1">
+                <p className="text-xs text-slate-455 uppercase">Unmoderated User reviews</p>
                 <p className="text-2xl font-mono font-extrabold text-[#12b76a]">{reviews.length} Active</p>
               </div>
               <div className="bg-[#080e1b] border border-slate-800 rounded-xl p-4.5 space-y-1">
@@ -2468,12 +2455,12 @@ export default function App() {
 
             {/* Catalog management review lists */}
             <div className="bg-[#050914] border border-slate-800 rounded-2xl p-6.5 space-y-6">
-              <h2 className="text-lg font-bold text-white">Live corporate Catalogue items</h2>
+              <h2 className="text-lg font-bold text-white">Direct-to-Consumer Product Catalogue (Monitored offerings)</h2>
               <div className="overflow-x-auto">
                 <table className="w-full text-left font-medium text-xs">
                   <thead>
                     <tr className="bg-[#0c142b] text-slate-400 border-b border-slate-800 text-slate-350 uppercase text-[9px] font-black tracking-widest">
-                      <th className="p-3">Product Appliance model</th>
+                      <th className="p-3">DTC Product Name</th>
                       <th className="p-3">Category</th>
                       <th className="p-3">Trust score</th>
                       <th className="p-3">Auth %</th>
